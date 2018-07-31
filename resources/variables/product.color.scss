@@ -1,0 +1,152 @@
+$raw-error: #dd04d2;
+// Inform
+$raw-danger: (
+  default: #982606,
+  dawn: #d5613f,
+  day: #b73f1c,
+  dusk: #741a00,
+  night: #491000
+);
+
+@function danger($key: "default") {
+  @if map-has-key($raw-danger, $key) {
+    @return map-get($raw-danger, $key);
+  }
+  @warn "Unknown color identifier `#{$key}` in $raw-sand. Avalible identifiers (default), dawn, day, dusk, night";
+  @return $raw-error;
+}
+$raw-warn: (
+  default: #f0d43d,
+  dawn: #ffed8d,
+  day: #ffe763,
+  dusk: #d8b914,
+  night: #a88f07
+);
+@function warn($key: "default") {
+  @if map-has-key($raw-warn, $key) {
+    @return map-get($raw-warn, $key);
+  }
+  @warn "Unknown color identifier `#{$key}` in $raw-sand. Avalible identifiers (default), dawn, day, dusk, night";
+  @return $raw-error;
+}
+$raw-success: (
+  default: #5d8718,
+  dawn: #a3cb60,
+  day: #7ba735,
+  dusk: #3f6202,
+  night: #253d00
+);
+@function success($key: "default") {
+  @if map-has-key($raw-success, $key) {
+    @return map-get($raw-success, $key);
+  }
+  @warn "Unknown color identifier `#{$key}` in $raw-sand. Avalible identifiers (default), dawn, day, dusk, night";
+  @return $raw-error;
+}
+// Contrast
+$raw-sky: (
+  default: #5e7c94,
+  dawn: #bdcbd6,
+  day: #889fb2,
+  dusk: #3b5d7a,
+  night: #224562
+);
+@function sky($key: "default") {
+  @if map-has-key($raw-sky, $key) {
+    @return map-get($raw-sky, $key);
+  }
+  @warn "Unknown color identifier `#{$key}` in $raw-sand. Avalible identifiers (default), dawn, day, dusk, night";
+  @return $raw-error;
+}
+$raw-force: (
+  default: #00583d,
+  dawn: #228567,
+  day: #5d8479,
+  dusk: #003f2c,
+  night: #002419
+);
+@function force($key: "default") {
+  @if map-has-key($raw-force, $key) {
+    @return map-get($raw-force, $key);
+  }
+  @warn "Unknown color identifier `#{$key}` in $raw-sand. Avalible identifiers (default), dawn, day, dusk, night";
+  @return $raw-error;
+}
+$raw-wood: (
+  default: #5a453d,
+  dawn: #ba9a8f,
+  day: #907165,
+  dusk: #4e3024,
+  night: #401f13
+);
+@function wood($key: "default") {
+  @if map-has-key($raw-wood, $key) {
+    @return map-get($raw-wood, $key);
+  }
+  @warn "Unknown color identifier `#{$key}` in $raw-sand. Avalible identifiers (default), dawn, day, dusk, night";
+  @return $raw-error;
+}
+// Grayscale
+$raw-snow: (
+  default: #aab8bc,
+  dawn: #fcfcfc,
+  day: #d9dedf,
+  dusk: #7c9399,
+  night: #587a83
+);
+@function snow($key: "default") {
+  @if map-has-key($raw-snow, $key) {
+    @return map-get($raw-snow, $key);
+  }
+  @warn "Unknown color identifier `#{$key}` in $raw-sand. Avalible identifiers (default), dawn, day, dusk, night";
+  @return $raw-error;
+}
+$raw-stone: (
+  default: #5e696d,
+  dawn: #a0a5a7,
+  day: #7a8285,
+  dusk: #465257,
+  night: #2c373c
+);
+@function stone($key: "default") {
+  @if map-has-key($raw-stone, $key) {
+    @return map-get($raw-stone, $key);
+  }
+  @warn "Unknown color identifier `#{$key}` in $raw-sand. Avalible identifiers (default), dawn, day, dusk, night";
+  @return $raw-error;
+}
+$raw-cave: (
+  default: #191718,
+  dawn: #7c7177,
+  day: #4f494c,
+  dusk: #120c0f,
+  night: #15090f
+);
+@function cave($key: "default") {
+  @if map-has-key($raw-cave, $key) {
+    @return map-get($raw-cave, $key);
+  }
+  @warn "Unknown color identifier `#{$key}` in $raw-sand. Avalible identifiers (default), dawn, day, dusk, night";
+  @return $raw-error;
+}
+$raw-punk: (
+  red: #e82c60,
+  green: #afff0d,
+  yellow: #ffff72,
+  grey: #91ffd9,
+  blue: #00ffff
+);
+/* $raw-punk: (
+  red: #ff5100,
+  green: #00ff00,
+  yellow: #ffff00,
+  orange: #ff5100,
+  blue: #00ffff
+); */
+@function punk($key: "default") {
+  @if map-has-key($raw-punk, $key) {
+    @return map-get($raw-punk, $key);
+  }
+  @warn "Unknown color identifier `#{$key}` in $raw-sand. Avalible identifiers (default), dawn, day, dusk, night";
+  @return $raw-error;
+}

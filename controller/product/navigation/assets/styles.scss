@@ -1,0 +1,130 @@
+@import "../../../../resources/variables/product.color";
+@import "../../../../resources/variables/golden.ratio";
+
+:host {
+  width: 100%;
+}
+.o-content {
+  margin-left: ratio(small, 6);
+  width: 100%;
+
+  .ic-home {
+    margin-right: ratio(small, 6);
+    color: snow(dawn);
+    header {
+      background-color: transparent;
+
+      a::before {
+        visibility: hidden;
+      }
+    }
+  }
+
+  h1 {
+    margin-top: ratio(small, 6);
+    margin-left: ratio(small, 18);
+    margin-bottom: ratio(small, 12);
+    color: snow(dawn);
+    font-weight: 200;
+    font-stretch: expanded;
+  }
+
+  .o-menu-line {
+    min-height: ratio(large, 2, 2) * 100px;
+    background-color: sky(day);
+    margin-bottom: ratio(small, 12);
+    width: 100% - (ratio(small, 1, 2) * 10);
+    cursor: pointer;
+
+    &:last-child {
+      margin-top: ratio(small, 12);
+    }
+
+    .o-overlay {
+      background-color: #d7dcdd; // rgba(snow(dawn), ratio(large, 9, 2));
+      * {
+        margin: 0;
+      }
+      header {
+        background-color: snow(dawn);
+
+        a.nav-link.nav-text,
+        a.nav-link.nav-icon {
+          color: cave(night);
+          fill: cave(night);
+        }
+      }
+      .o-info {
+        margin-left: ratio(small, 18);
+        width: ratio(large);
+
+        .o-success {
+          color: success(dusk);
+        }
+
+        p {
+          line-height: 14px;
+          margin-right: ratio(small, 9);
+          text-align: right;
+        }
+        *:first-child {
+          font-weight: 200px;
+          font-size: 14px;
+          margin-top: 3px;
+          margin-bottom: ratio(small, 18);
+        }
+        *:last-child {
+          margin-bottom: ratio(small, 9);
+        }
+      }
+      .o-visual {
+        .o-leaflet {
+          position: relative;
+          // border-color: stone(dusk);
+          // border-style: solid;
+          // border-width: ratio(small, 96);
+          width: 100%;
+          height: 100%;
+
+          .o-layer {
+            z-index: 1;
+            position: absolute;
+            height: 100%;
+            width: 100%;
+
+            &.o-root {
+              background-color: snow(dawn);
+              padding-top: 3px;
+              padding-bottom: 3px;
+            }
+          }
+
+          .o-location {
+            z-index: 2;
+            position: absolute;
+
+            .o-svg-container {
+              // background-color: rgba(#fff, ratio(small));
+              margin-top: 6px;
+              margin-bottom: 6px;
+              padding-top: 6px;
+              padding-bottom: 6px;
+
+              width: 120px;
+              .o-svg-content {
+                z-index: 3;
+                display: block;
+
+                fill: rgba(success(dawn), ratio(small, 1, 2));
+                stroke: stone(day);
+                stroke-linejoin: round;
+                stroke-linecap: round;
+                stroke-width: 1%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

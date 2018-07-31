@@ -1,0 +1,148 @@
+<div class="modal" *ngIf="popField">
+    <div class="modal-dialog" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button aria-label="Close" (click)="popField = false" class="close" type="button">
+                    <clr-icon aria-hidden="true" shape="close"></clr-icon>
+                </button>
+                <h3 class="modal-title">{{ current }}</h3>
+            </div>
+            <div class="modal-body">
+
+                <select (change)="onClickShowField($event.target.value)">
+                    <option *ngFor="let item of contentlist; let i = index" [attr.data-index]="i" [value]="item.date">{{ item.date }}</option>
+                </select>
+                <img [src]="fieldContent" />
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-outline" (click)="popField = false" type="button">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div fxLayout="column" fxLayoutAlign="start stretch">
+    <div class="o-content-analysis" fxLayout="column" fxLayoutAlign="center stretch">
+        <div class="o-overlay" fxLayout="column" fxLayoutAlign="space-around stretch">
+            <div class="o-info" fxLayout="row" fxLayoutAlign="start stretch">
+                <div fxLayout="column" fxLayoutAlign="start stretch">
+                    <div class="o-banner o-left" fxLayout="row" fxLayoutAlign="end stretch">
+                        <div fxFlex class="o-field-info">
+                            <h3>{{field.name}}</h3>
+                        </div>
+                        <div class="o-vertical-line"></div>
+                    </div>
+                    <div class="o-split o-left">
+                        <div fxFill>
+                            <div fxFill></div>
+                        </div>
+                    </div>
+                    <div class="o-content-map" fxLayout="column" fxLayoutAlign="start stretch">
+                        <div *ngIf="adhocshit" class="o-mapbox" fxFill fxLayout="column" fxLayoutAlign="center stretch">
+                            <asset-map [resurces]="resurces"></asset-map>
+                        </div>
+                    </div>
+                    <div class="o-menu-map" fxLayout="column" fxLayoutAlign="end stretch">
+                        <div fxFlex>
+                            <div fxFill></div>
+                        </div>
+                        <header>
+                            <div class="header-nav">
+                                <a href="javascript://" class="nav-link nav-text">Tutorial</a>
+                                <a href="javascript://" class="nav-link nav-text">Contact</a>
+                                <a href="javascript://" class="nav-link nav-text">Help</a>
+                            </div>
+                            <div class="header-actions">
+                                <a href="javascript://" class="nav-link nav-icon">
+                                    <clr-icon shape="sync"></clr-icon>
+                                </a>
+                                <a href="javascript://" class="nav-link nav-icon">
+                                    <clr-icon shape="wifi"></clr-icon>
+                                </a>
+                            </div>
+                        </header>
+                    </div>
+                </div>
+                <div class="o-controller" fxLayout="column" fxLayoutAlign="start stretch">
+                    <!-- <h5 (click)="onOtherThings()">Other things</h5> -->
+                    <div class="o-visual-menu">
+                        <button class="btn btn-sm btn-link" (click)="onDeleteField()">Delete</button>
+                    </div>
+                    <div class="o-banner o-right" fxLayout="row" fxLayoutAlign="end stretch">
+                        <div fxFlex fxLayout="column" fxLayoutAlign="end start">
+                            <p class="p3">{{field.type}}</p>
+                            <p class="p2 o-success">{{field.timestamp | amDateFormat:'LL' }}</p>
+                        </div>
+                        <div class="o-visual" fxFlex="70" fxLayout="row" fxLayoutAlign="center center">
+
+                            <div id="leaflet-map" class="o-leaflet">
+                                <div class="o-layer o-root"> </div>
+
+                                <div class="o-layer o-location">
+                                    <div fxFill class="o-svg-container">
+                                        <svg fxFill version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%"
+                                            height="100%" viewBox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve"
+                                            class="o-svg-content" [innerHTML]="field.attributes.svg" />
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="o-split o-right">
+                        <div fxFill>
+                            <div fxFill></div>
+                        </div>
+                    </div>
+                    <div class="o-line o-bold">
+                        <div fxFill></div>
+                    </div>
+                    <header>
+                        <div class="header-nav">
+
+                            <a href="javascript://" (click)="navRequest = false" [class.active]="!navRequest" class="nav-link nav-text">Avalible</a>
+                            <a href="javascript://" (click)="navRequest = true" [class.active]="navRequest" class="nav-link nav-text">Request</a>
+                        </div>
+                        <div class="header-actions">
+                            <a href="javascript://" class="nav-link nav-icon" disabled>
+                                <clr-icon shape="cog"></clr-icon>
+                            </a>
+                        </div>
+                    </header>
+                    <div class="o-line o-bold">
+
+                    </div>
+                    <div fxFlex class="o-content">
+                        <div fxFill *ngIf="!navRequest" class="o-avalible">
+
+                            <clr-tree-node *ngFor="let leaf of treeAvalible.data.children; let i = index" [attr.data-index]="i">
+                                <clr-icon shape="calendar"></clr-icon>
+                                {{leaf.name}}
+                                <ng-template [clrIfExpanded]="i === 0">
+                                    <clr-tree-node *ngFor="let file of treeAvalible.data.timeRange[i]">
+                                        <button class="clr-treenode-link" [class.active]="file.sync" (click)="onClickAvailable(file)">
+                                            <clr-icon shape="cloud-chart"></clr-icon>
+                                            {{provideMonthName(file.date)}}
+                                        </button>
+                                    </clr-tree-node>
+                                </ng-template>
+                            </clr-tree-node>
+
+                        </div>
+                        <div fxFill *ngIf="navRequest" class="o-request">
+
+                            <clr-tree-node *ngFor="let leaf of treeRequest.data.children; let i = index" [attr.data-index]="i" [clrSelected]="false">
+                                {{leaf.name}}
+                                <ng-template [clrIfExpanded]="i === 0">
+                                    <clr-tree-node *ngFor="let file of treeRequest.data.timeRange[i]" [(clrSelected)]="file.sync" (click)="onClickRequest(file)">
+                                        {{provideMonthName(file.date)}}
+                                    </clr-tree-node>
+                                </ng-template>
+                            </clr-tree-node>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

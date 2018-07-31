@@ -1,0 +1,228 @@
+@import "../../../../resources/variables/product.color";
+@import "../../../../resources/variables/golden.ratio";
+
+h1 {
+  color: sand("night");
+}
+:host {
+}
+
+.background {
+  height: 100%;
+  .o-banner {
+    // Binding
+    // background-color: cave();
+    // border-width: ratio(small, 12);
+    // border-color: cave(night);
+    // border-style: solid;
+    width: 100%;
+
+    border-left: none;
+    border-right: none;
+
+    span {
+      width: 300px;
+      padding-left: 50px;
+      line-height: 100%;
+      font-size: size(headline);
+      padding-top: 3px;
+      padding-bottom: 6px;
+      padding-left: ratio(small, 96, 2) * 100vh;
+      border-color: rgba(stone(dusk), ratio(small, 6, 2));
+      border-width: 1px;
+      border-right-width: 0px;
+      border-left-width: 0px;
+      border-style: solid;
+      background-color: rgba(sky(day), ratio(small, 24, 2));
+      position: relative;
+
+      .o-vultus-ab {
+        margin-top: 3px;
+        margin-left: ratio(small, 20);
+        height: 38px;
+        position: absolute;
+      }
+      .o-vultus-ab-text {
+        margin-top: 3px;
+        margin-left: ratio(small, 3);
+        color: #fff;
+        height: 30px;
+        line-height: 30px;
+        font-size: 30px;
+        font-weight: 900;
+        // font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: -1px;
+        position: absolute;
+      }
+    }
+  }
+  //Header controller
+  $header-factor: 24;
+  .o-nav {
+    // Binding
+    height: ratio(small, (ratio(large, 1, 2) * $header-factor));
+    min-height: lock(
+      height,
+      ratio(small, (ratio(large, 1, 2) * $header-factor), 2)
+    );
+  }
+  .o-banner {
+    // Binding
+    height: ratio(small, (ratio(small, 1, 2) * $header-factor));
+    min-height: lock(
+      height,
+      ratio(small, (ratio(small, 1, 2) * $header-factor), 2)
+    );
+  }
+  &.o-vertical-nav {
+    position: relative;
+    background-color: stone(dusk);
+    background-image: url(../../../../resources/images/account_pattern_left.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    width: ratio(small, 3);
+
+    .o-papper {
+      position: absolute;
+    }
+    .o-decoration {
+      .o-foundation {
+        width: ratio(small, 8) + ratio(small, 48);
+        background-color: stone(night);
+      }
+      .o-depth,
+      .o-content .o-depth {
+        width: ratio(small, 96);
+        background-color: rgba(stone(night), ratio(large, 3, 2));
+      }
+      .o-content {
+        width: 100% - (ratio(small, 8) + ratio(small, 48) + ratio(small, 96));
+      }
+    }
+    .o-content {
+      .o-nav {
+        width: ratio(small);
+      }
+      .o-banner {
+        width: 100%;
+
+        .o-fill {
+          width: ratio(large, 8);
+          .o-earth {
+            visibility: hidden;
+            width: ratio(large);
+            margin: ratio(small, 8);
+            background-image: url("../../../../resources/images/earth_day_night.png");
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: left;
+          }
+        }
+        .o-perspective {
+          visibility: hidden; // Banner component
+          background-color: cave(night);
+          width: ratio(small, 48);
+          transform: skewY(225deg);
+          transform-origin: top left;
+          margin-right: ratio(small, 48) * -1;
+        }
+      }
+    }
+  }
+  &.o-container {
+    background-color: stone(night);
+    width: ratio(large, 3);
+
+    .o-nav {
+      width: ratio(small);
+      .o-vultus {
+        width: ratio(small, 2);
+        margin-left: ratio(small, 32);
+        mask-image: url("../../../../resources/images/vultus_ab_white.png");
+        mask-repeat: no-repeat;
+        mask-size: contain;
+        mask-position: left;
+        background-color: snow(dawn);
+      }
+    }
+    .o-banner {
+      width: 100%;
+      .o-fill {
+        width: 100% - ratio(small, 24); // ratio(large, 16);
+        .o-label {
+          margin-left: ratio(small, 48) * -1;
+          position: relative;
+
+          span {
+            // Binding
+            color: snow(dawn);
+          }
+          &.o-title {
+            height: ratio(large);
+            span {
+              line-height: 100%;
+              font-size: size(headline);
+            }
+          }
+          &.o-subtitle {
+            height: ratio(small);
+            span {
+              $unit: size(label);
+              line-height: 100%;
+              font-size: $unit;
+            }
+          }
+        }
+      }
+    }
+    .o-content {
+      width: 100%;
+      height: 100% -
+        (
+          ratio(small, (ratio(large, 1, 2) * $header-factor)) +
+            ratio(small, (ratio(small, 1, 2) * $header-factor))
+        );
+      .o-component {
+        height: 100%;
+        width: ratio(large);
+      }
+    }
+    &.o-overlay {
+      background-color: transparent;
+      position: absolute;
+      pointer-events: none;
+
+      .o-vertical-right-nav {
+        height: 100%;
+        width: ratio(small);
+        background-color: stone(dusk);
+        background-image: url(../../../../resources/images/account_pattern_right.jpg);
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+        .o-depth {
+          width: ratio(small, 144);
+          background-color: rgba(stone(night), ratio(large, 3, 2));
+        }
+      }
+    }
+  }
+}
+.viewport.footer {
+  min-height: ratio(small, 3) !important;
+  max-width: 1250px;
+}
+.background.footer {
+  &.o-vertical-nav {
+    background-color: rgba(sky(dawn), ratio(large, 3, 2)) !important;
+    .o-foundation {
+      background-color: stone(dawn) !important;
+    }
+    .o-depth {
+      background-color: rgba(sky(dawn), ratio(large, 3, 2)) !important;
+    }
+  }
+
+  &.o-container {
+    background-color: rgba(snow(dawn), ratio(small, 1, 2)) !important;
+  }
+}

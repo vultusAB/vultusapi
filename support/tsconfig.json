@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "outDir": "_dist/",
+    "module": "commonjs",
+    "target": "es6",
+    "newLine": "LF",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "experimentalDecorators": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "typeRoots": ["node_modules/@types"],
+    "types": ["core-js", "node"],
+    "sourceMap": false,
+    "lib": ["es2017", "dom"]
+  },
+  "include": ["webpack/**/*"],
+  "exclude": ["_dist/", "node_modules"]
+}

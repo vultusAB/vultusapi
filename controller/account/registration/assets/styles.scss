@@ -1,0 +1,87 @@
+@import "../../../../resources/variables/product.color";
+@import "../../../../resources/variables/golden.ratio";
+
+.login-wrapper {
+  min-width: 520px;
+  width: ratio(large);
+}
+
+.login-wrapper,
+.login-wrapper form.login {
+  height: 100%;
+  min-height: 100%;
+  width: 100%;
+  max-width: 700px;
+  background-color: transparent;
+  background-image: none;
+  color: snow(dawn);
+  border: none;
+}
+.login-wrapper form.login {
+  padding-right: ratio(small) / 4;
+  padding-left: ratio(small) / 4;
+
+  &::after {
+    visibility: hidden;
+  }
+}
+form *,
+form > label.title,
+form > label.title > .hint {
+  color: snow(dawn);
+}
+form > label.title {
+  .hint {
+    margin-top: ratio(small, 2, 2) * 100px;
+  }
+}
+
+.login-group {
+  padding-top: (ratio(small, 4, 2) * 100px) !important;
+  .error {
+    background-color: error(dawn) !important;
+    border-radius: 0;
+  }
+  .btn.btn-primary {
+    background-color: sky(dusk);
+    border: none;
+    box-shadow: none;
+    &:hover {
+      background-color: sky();
+    }
+    &:disabled {
+      color: snow(day);
+    }
+  }
+}
+
+.o-banner {
+  border-bottom-color: snow(dawn);
+  border-bottom-style: dotted;
+  border-bottom-width: 1px;
+  margin-bottom: 12px;
+  margin-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 6px;
+}
+
+.login-group.password,
+.checkbox {
+  margin: 0 !important;
+  margin-top: 12px !important;
+}
+
+.btn {
+  margin-top: 32px !important;
+}
+.login-group > input {
+  margin-top: ratio(small, 1, 2) * 10px;
+  margin-bottom: ratio(large, 1, 2) * 10px;
+}
+
+.alert {
+  .alert-text,
+  .alert-text i {
+    color: cave(night);
+  }
+}

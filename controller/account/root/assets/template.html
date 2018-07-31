@@ -1,0 +1,48 @@
+<div class="viewport" fxFill fxLayout="row" fxLayoutAlign="center stretch">
+    <div class="background o-vertical-nav" style="min-height: 810px;" fxLayout="column" fxLayoutAlign="start end">
+        <div class="o-papper o-decoration" fxFill fxLayout="row" fxLayoutAlign="start stretch">
+            <div class="o-foundation"></div>
+            <div class="o-depth"></div>
+            <div class="o-content" fxLayout="row" fxLayoutAlign="end stretch">
+                <div class="o-depth"></div>
+            </div>
+        </div>
+        <div class="o-papper o-content" fxFill fxLayout="column" fxLayoutAlign="start end">
+            <div class="o-nav"></div>
+            <div class="o-banner" fxLayout="row" fxLayoutAlign="end stretch">
+                <div class="o-perspective"></div>
+                <div class="o-fill" fxLayout="row" fxLayoutAlign="start stretch">
+                    <div class="o-earth"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="background o-container" style="min-width: 950px; min-height: 810px;" fxLayout="column" fxLayoutAlign="start start">
+        <div class="o-nav" fxLayout="row" fxLayoutAlign="start stretch">
+
+        </div>
+        <div class="o-banner" fxLayout="row" fxLayoutAlign="start stretch">
+            <div class="o-fill" fxLayout="row" fxLayoutAlign="start stretch">
+                <!--<div class="o-earth"></div> -->
+
+                <span fxLayout="row" fxLayoutAlign="start center">
+                    <img class="o-vultus-ab" src="../../../../resources/images/favicon/vultus_ab_icon.png" />
+                    <h2 class="o-vultus-ab-text">VULTUS</h2>
+                </span>
+
+
+            </div>
+        </div>
+        <div class="o-account o-content" fxLayout="column" fxLayoutAlign="start stretch">
+            <div class="o-component" fxLayout="row" fxLayoutAlign="center stretch">
+                <router-outlet></router-outlet>
+            </div>
+
+        </div>
+        <div class="background o-container o-overlay" style="min-width: 950px;" fxLayout="row" fxLayoutAlign="end stretch">
+            <div class="o-vertical-right-nav" style="min-height: 810px;" fxLayout="row" fxLayoutAlign="start stretch">
+                <div class="o-depth"></div>
+            </div>
+        </div>
+    </div>
+</div>

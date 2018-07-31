@@ -1,0 +1,65 @@
+@import "../../../../resources/variables/product.color";
+@import "../../../../resources/variables/golden.ratio";
+
+.login-wrapper {
+  min-width: 520px;
+  width: ratio(large);
+}
+
+.login-wrapper,
+.login-wrapper form.login {
+  height: 100%;
+  min-height: 100%;
+  width: 100%;
+  max-width: 700px;
+  background-color: transparent;
+  background-image: none;
+  color: snow(dawn);
+  border: none;
+}
+.login-wrapper form.login {
+  padding-right: ratio(small) / 4;
+  padding-left: ratio(small) / 4;
+
+  &::after {
+    visibility: hidden;
+  }
+}
+form *,
+form > label.title,
+form > label.title > .hint {
+  color: snow(dawn);
+}
+form > label.title {
+  .hint {
+    margin-top: ratio(small, 2, 2) * 100px;
+  }
+}
+
+.login-group {
+  padding-top: ratio(small, 2, 2) * 100px;
+  .error {
+    background-color: error(dawn) !important;
+    border-radius: 0;
+  }
+  .btn {
+    margin-top: 32px !important;
+  }
+  .btn.btn-primary {
+    background-color: sky(dusk);
+    border: none;
+    box-shadow: none;
+    &:hover {
+      background-color: sky();
+    }
+    &:disabled {
+      color: snow(day);
+    }
+  }
+}
+
+.alert {
+  .alert-text {
+    color: cave(night);
+  }
+}

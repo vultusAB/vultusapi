@@ -1,0 +1,117 @@
+<div class="content o-decoration">
+    <div class="o-map">
+        <div class="o-controller">
+            <clr-tabs>
+                <clr-tab>
+                    <button clrTabLink>Location of field</button>
+                    <ng-template [(clrIfActive)]="state.menu.location.active">
+                        <clr-tab-content fxLayout="column" fxLayoutAlign="space-around stretch">
+                            <div class="o-tab" fxLayout="column" fxLayoutAlign="space-around stretch">
+                                <div class="o-line o-information">
+                                    Locate your field using the map below
+                                </div>
+                                <div class="o-line" fxLayout="row" fxLayoutAlign="end stretch">
+                                    <button class="btn btn-link" disabled>Reset</button>
+                                    <button class="btn btn-success" #locationNext (click)="user.event.location.btnContinue()" [disabled]="!state.menu.location.valid">Continue</button>
+                                </div>
+                            </div>
+                        </clr-tab-content>
+                    </ng-template>
+                </clr-tab>
+
+                <clr-tab>
+                    <button clrTabLink>Bounds of field</button>
+                    <ng-template [(clrIfActive)]="state.menu.draw.active">
+                        <clr-tab-content>
+                            <div class="o-tab" fxLayout="column" fxLayoutAlign="space-around stretch">
+                                <div class="o-line o-information">
+                                    Locate your field using the map below
+                                </div>
+                                <div class="o-line" fxLayout="row" fxLayoutAlign="end stretch">
+                                    <button class="btn btn-link" disabled>Reset</button>
+                                    <button class="btn btn-success" [disabled]="!state.menu.draw.valid">Continue</button>
+                                </div>
+                            </div>
+                        </clr-tab-content>
+                    </ng-template>
+                </clr-tab>
+
+                <clr-tab>
+                    <button clrTabLink>Field Information</button>
+                    <ng-template [(clrIfActive)]="state.menu.information.active">
+                        <clr-tab-content>
+                            <div class="o-tab" fxLayout="column" fxLayoutAlign="space-around stretch">
+                                <div class="o-line o-information">
+                                    Locate your field using the map below
+                                </div>
+                                <div class="o-line" fxLayout="row" fxLayoutAlign="end stretch">
+                                    <button class="btn btn-link" disabled>Reset</button>
+                                    <button class="btn btn-success" [disabled]="state.menu.information.fieldName.length < 3">Create field</button>
+                                </div>
+                            </div>
+                        </clr-tab-content>
+                    </ng-template>
+                </clr-tab>
+            </clr-tabs>
+        </div>
+        <div id="leaflet-map" class="o-leaflet">
+            <div class="o-layer o-root" leaflet leafletDraw [leafletOptions]="map.options" [leafletLayersControl]="map.layers" [leafletDrawOptions]="map.optionsDraw"
+                (leafletMapReady)="onMapReady($event)"></div>
+
+            <div class="o-layer o-location">
+                <div class="o-target" *ngIf="controller.logic.ruleFor.zoom() && !state.menu.information.active" fxLayout="column" fxLayoutAlign="start stretch">
+                    <div *ngIf="state.menu.location.active" fxFill fxLayout="column" fxLayoutAlign="start stretch">
+                        <div fxFlex="10" fxLayout="row" fxLayoutAlign="start stretch">
+                            <div fxFlex="10" class="o-corner top left"></div>
+                            <div fxFlex="80" class="o-fill top"></div>
+                            <div fxFlex="10" class="o-corner top right"></div>
+                        </div>
+                        <div fxFlex="80" class="o-fill left right" fxLayout="column" fxLayoutAlign="center stretch">
+                            <div fxFlex="30" fxLayout="column" fxLayoutAlign="space-between center">
+                                <button class="btn btn-success-outline" (click)="user.event.location.btnContinue()">Continue</button>
+                            </div>
+                        </div>
+                        <div fxFlex="10" fxLayout="row" fxLayoutAlign="start stretch">
+                            <div fxFlex="10" class="o-corner bottom left"></div>
+                            <div fxFlex="80" class="o-fill bottom"></div>
+                            <div fxFlex="10" class="o-corner bottom right"></div>
+                        </div>
+                    </div>
+                    <div *ngIf="state.menu.draw.active && state.menu.draw.valid" fxFill fxLayout="column" fxLayoutAlign="start stretch">
+                        <div fxFlex="10" fxLayout="row" fxLayoutAlign="start stretch"></div>
+                        <div fxFlex="80" class="o-fill" fxLayout="column" fxLayoutAlign="center stretch">
+                            <div fxFlex="30" fxLayout="column" fxLayoutAlign="space-between center">
+                                <button class="btn btn-success-outline" (click)="user.event.draw.btnContinue()">Continue</button>
+                                <button class="btn btn-link" disabled (click)="user.event.draw.btnEdit()">Edit shape</button>
+                            </div>
+                        </div>
+                        <div fxFlex="10" fxLayout="row" fxLayoutAlign="start stretch"></div>
+                    </div>
+                </div>
+                <div *ngIf="state.menu.information.active" class="o-information" fxFill fxLayout="column" fxLayoutAlign="start stretch">
+                    <div fxFill fxLayout="column" fxLayoutAlign="start stretch">
+                        <div class="o-banner" fxLayout="row" fxLayoutAlign="start stretch">
+                            <div fxFlexOffset="15" fxFlex="85">
+                                <div fxLayout="column" fxLayoutAlign="space-between stretch">
+                                    <form fxLayout="row" fxLayoutAlign="start start">
+                                        <section class="form-block">
+                                            <label>Please enter a descriptive field name</label>
+                                            <div class="form-group">
+                                                <label class="required">Field name</label>
+                                                <input type="text" id="requiredInput" [(ngModel)]="state.menu.information.fieldName" name="fieldName">
+                                            </div>
+                                        </section>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div fxFlex="55" fxLayout="column" fxLayoutAlign="center center">
+                            <button class="btn btn-success-outline" (click)="user.event.information.btnCreate()" [disabled]="state.menu.information.fieldName.length < 3">Create field</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

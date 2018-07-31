@@ -1,0 +1,59 @@
+<div class="login-wrapper">
+    <form class="login" [formGroup]="registrationForm" (ngSubmit)="onSubmit()" fxLayout="column" fxLayoutAlign="start stretch">
+        <label class="title">
+            <h3 class="welcome">Welcome to</h3>
+            Vustaina Toolbox
+            <h5 class="hint">Register for a Account, which enables you to sign in</h5>
+        </label>
+        <div class="login-group">
+            <div class="o-banner">
+                <clr-icon shape="user"></clr-icon>
+            </div>
+            <div fxLayout="row" fxLayoutAlign="space-between stretch">
+                <input fxflex="40" type="text" id="login_name" formControlName="firstname" placeholder="Enter your Name">
+                <input fxflex="60" type="text" id="login_surname" formControlName="surname" placeholder="Surname">
+            </div>
+            <input type="text" id="login_email" formControlName="username" (input)="clearUsernameTaken()" placeholder="Enter your Email">
+        </div>
+        <div class="login-group password">
+            <div class="o-banner">
+                <clr-icon shape="key"></clr-icon>
+            </div>
+
+            <input fxflex="100" type="password" id="account_password" formControlName="password" placeholder="Enter your Password" (input)="matchPasswordValidator(registrationForm.value.password, registrationForm.value.confirmPassword)">
+            <input type="password" id="account_confirm_password" formControlName="confirmPassword" placeholder="Confirm password" (input)="matchPasswordValidator(registrationForm.value.password, registrationForm.value.confirmPassword)">
+            <div class="alert alert-danger" *ngIf="credentials.passwordMatch === false">
+                <div class="alert-items">
+                    <div class="alert-item static">
+                        <div class="alert-icon-wrapper">
+                            <clr-icon class="alert-icon" shape="exclamation-circle"></clr-icon>
+                        </div>
+                        <span class="alert-text">Password not match</span>
+                    </div>
+                </div>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" formControlName="signin" id="signin">
+                <label for="signin">
+                    Sign in
+                </label>
+            </div>
+            <button type="submit" class="btn btn-primary" [disabled]="((registrationForm.status === 'INVALID') || (credentials.passwordMatch !== true))">Sign up</button>
+            <div class="alert alert-danger" *ngIf="credentials.usernameTaken">
+                <div class="alert-items">
+                    <div class="alert-item static">
+                        <div class="alert-icon-wrapper">
+                            <clr-icon class="alert-icon" shape="exclamation-circle"></clr-icon>
+                        </div>
+                        <span class="alert-text">Account already exists for email
+                            <i>{{ registrationForm.value.username }}</i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <p class="signup">Already have an account?
+                <a [routerLink]="['/account/signin']">Sign in</a>
+            </p>
+        </div>
+    </form>
+</div>

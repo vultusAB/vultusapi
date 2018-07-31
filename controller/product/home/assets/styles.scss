@@ -1,0 +1,145 @@
+@import "../../../../resources/variables/product.color";
+@import "../../../../resources/variables/golden.ratio";
+
+:host {
+  height: 100%;
+}
+
+:host > div {
+  height: 100% - (ratio(small, 24) * 2);
+  margin: ratio(small, 24);
+  margin-bottom: ratio(small, 48);
+}
+
+.card-text {
+  color: stone(dusk);
+}
+
+.card {
+  box-shadow: snow(day) 0px 3px 0px 0px;
+}
+
+.o-container {
+  width: ratio(large);
+  margin-right: ratio(small, 48);
+}
+
+.o-container > div:first-child {
+  margin-top: 0;
+}
+
+.o-container div {
+  border-bottom-color: rgba(sky(dawn), ratio(large, 1, 2));
+}
+.o-container > div {
+  background-color: rgba(snow(dawn), ratio(large, 1, 2));
+  border-bottom-color: rgba(stone(dusk), ratio(small, 1, 2));
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+.card .card-header-line {
+  background-color: transparent;
+  height: 3px;
+  border-bottom-color: rgba(sky(night), ratio(large, 1, 2));
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-top-color: rgba(stone(day), ratio(small, 1, 2));
+  border-top-width: 1px;
+  border-top-style: solid;
+}
+.card-header {
+  background-color: force(day);
+  border-bottom-color: rgba(sky(night), ratio(large, 1, 2));
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  color: #fff;
+  padding-top: 12px;
+  margin-top: 0;
+  margin-bottom: 6px;
+}
+.o-subcontainer > .card:first-child {
+  margin: 0;
+  border-radius: 0;
+  // background-color: rgba(sky(day), ratio(large, 1, 2));
+}
+
+.o-subcontainer {
+  width: ratio(small);
+  margin-left: ratio(small, 48);
+
+  .card-header {
+    margin-bottom: 1px;
+  }
+
+  .o-events {
+    background-color: rgba(sky(dawn), ratio(small, 1, 2));
+    height: 100%;
+    border-bottom-color: rgba(sky(day), ratio(large, 1, 2));
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+  }
+
+  .card {
+    //border-bottom-color: rgba(sky(day), ratio(large, 1, 2));
+    background-color: rgba(snow(dawn), ratio(large, 1, 2));
+    box-shadow: none;
+    border-radius: 0;
+  }
+  .card-text.time {
+    margin: 0;
+    text-align: right;
+    padding-right: 6px;
+    background-color: rgba(snow(dawn), ratio(large, 1, 2));
+    border-bottom-color: rgba(stone(dusk), ratio(small, 1, 2));
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-top-color: rgba(stone(dusk), ratio(small, 1, 2));
+    border-top-width: 1px;
+    border-top-style: solid;
+  }
+  .card-block {
+    padding-top: 6px;
+    padding-bottom: 9px;
+    border-bottom-color: rgba(snow(day), ratio(small, 1, 2));
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    background-color: snow(dawn);
+  }
+  .card-title {
+    font-size: 0.6rem;
+    font-weight: bold;
+    color: stone(night);
+  }
+
+  .card-footer a {
+    margin: 0 !important;
+    line-height: 26px;
+    height: 26px;
+  }
+  .card-footer div {
+    width: ratio(small);
+    border-bottom-color: rgba(sky(day), ratio(small, 1, 2));
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+  }
+
+  .card-footer {
+    padding-top: 3px;
+    padding-bottom: 6px;
+    background-color: snow(dawn);
+    border-bottom-color: rgba(sky(day), ratio(small, 2, 2));
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+
+    .card-text {
+      margin: 0;
+    }
+
+    .btn.btn-link.success {
+      color: success(dusk);
+    }
+    .btn.btn-link.warning {
+      color: warning(dusk);
+    }
+  }
+}

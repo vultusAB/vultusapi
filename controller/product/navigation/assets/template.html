@@ -1,0 +1,84 @@
+<div class="o-content" fxLayout="column" fxLayoutAlign="space-between stretch">
+    <div class="ic-home">
+        <header>
+            <div class="header-nav">
+                <a [routerLink]="['/product/home']" class="nav-link nav-icon">
+                    <clr-icon shape="home"></clr-icon>
+                </a>
+            </div>
+            <div class="header-actions">
+                <a [routerLink]="['/product/field/select']" class="nav-link nav-icon">
+                    <clr-icon shape="map-marker"></clr-icon>
+                </a>
+            </div>
+        </header>
+    </div>
+    <h1 class="o-assets" (click)="onAssets()">Assets</h1>
+    <div *ngIf="adHocUpdateShit">
+        <div *ngFor="let record of records" class="o-menu-line" fxLayout="row" fxLayoutAlign="start stretch">
+            <div [routerLink]="['/product', 'field', record.id ]" queryParamsHandling="merge" class="o-overlay" fxFlex fxLayout="row"
+                fxLayoutAlign="end stretch">
+                <!--
+                    <div class="o-info">
+                        <h5>{{record.name}}</h5>
+        
+                        <p class="p3">{{record.type}}</p>
+                        <p class="p2 o-success">{{record.timestamp | amDateFormat:'LL' }}</p>
+                    </div>
+                    -->
+                <div class="o-visual" fxFlex="100" fxLayout="row" fxLayoutAlign="end center">
+                    <div id="leaflet-map" class="o-leaflet">
+                        <div class="o-layer o-root">
+                            <div class="o-info">
+                                <h5>{{record.name}}</h5>
+
+                                <p class="p3">{{record.type}}</p>
+                                <p class="p2 o-success">{{record.timestamp | amDateFormat:'LL' }}</p>
+                            </div>
+
+                        </div>
+
+                        <div class="o-layer o-location" fxLayout="row" fxLayoutAlign="end stretch">
+
+                            <div class="o-svg-container">
+                                <svg fxFill version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%"
+                                    height="100%" viewBox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve"
+                                    class="o-svg-content" [innerHTML]="record.attributes.svg" />
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--
+    <div class="o-menu-line" fxLayout="row" fxLayoutAlign="start stretch">
+        <div class="o-overlay" fxFlex fxLayout="row" fxLayoutAlign="start stretch">
+            <div class="o-info">
+                <h5>Åmål risfält</h5>
+
+                <p class="p3">2018-01-22</p>
+                <p class="p2 o-success">Update avalible</p>
+            </div>
+            <div class="o-visual" fxFlex fxLayout="row" fxLayoutAlign="end center">
+                <clr-icon shape="cloud-chart"></clr-icon>
+            </div>
+        </div>
+    </div>
+-->
+    <div [routerLink]="['/product/field/select']" class="o-menu-line" fxLayout="row" fxLayoutAlign="start stretch">
+        <div class="o-overlay" fxFlex fxLayout="row" fxLayoutAlign="start end">
+            <header fxFill fxLayout="row" fxLayoutAlign="end center">
+                <div class="header-actions">
+                    <a fxFlex href="javascript://" [routerLink]="['/product/field/select']" class="nav-link nav-text">
+                        Create one field
+                    </a>
+                    <a href="javascript://" [routerLink]="['/product/field/select']" class="nav-link nav-icon">
+                        <clr-icon shape="map-marker"></clr-icon>
+                    </a>
+                </div>
+            </header>
+        </div>
+    </div>
+</div>

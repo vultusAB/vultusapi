@@ -1,0 +1,64 @@
+<div class="login-wrapper">
+    <form class="login" fxLayout="column" fxLayoutAlign="start stretch">
+        <label class="title">
+            <h3 class="welcome">Welcome to</h3>
+            Vustaina Toolbox
+            <h5 class="hint" *ngIf="false">Use your registered Email to
+                <a href="#">sign in</a> or
+                <a href="#">create one</a> now</h5>
+        </label>
+        <div class="login-group" *ngIf="resolved.session.authenticated">
+            <div fxLayout="column" fxLayoutAlign="space-between stretch">
+                <h3 *ngIf="!created">You are currently signed in.</h3>
+                <h3 *ngIf="created">Account created and signed in.</h3>
+                <h5 class="o-account">
+                    Account |
+                    <i>{{ resolved.session.account.name }}</i>
+                </h5>
+                <div class="o-operation" fxLayout="row" fxLayoutAlign="space-between stretch">
+                    <button [routerLink]="['/account/signout']" class="btn btn-outline">Sign out</button>
+                    <button [routerLink]="['/product']" class="btn btn-success">Continue</button>
+                </div>
+            </div>
+        </div>
+        <div class="login-group" *ngIf="!resolved.session.authenticated && !signout && !created">
+            <div fxLayout="column" fxLayoutAlign="space-between stretch">
+                <h3>You are currently here as guest.</h3>
+                <h5 class="o-account">Please consider to create an account,</h5>
+                <h5 class="o-account o-sub">or sign in on an existing account.</h5>
+                <div class="o-operation" fxLayout="row" fxLayoutAlign="end stretch">
+                    <div fxFlex="60" fxLayout="row" fxLayoutAlign="space-evenly stretch">
+                        <button [routerLink]="['/account/signup']" class="btn btn-primary">Create one</button>
+                        <button [routerLink]="['/account/signin']" class="btn btn-primary">Sign in</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="login-group" *ngIf="!resolved.session.authenticated && signout && !created">
+            <div fxLayout="column" fxLayoutAlign="space-between stretch">
+                <h3>You've been signed out.</h3>
+                <h5 class="o-account">We hope you are satisfied with your visit</h5>
+                <h5 class="o-account o-sub">and to see you back soon again.</h5>
+                <div class="o-operation" fxLayout="row" fxLayoutAlign="end stretch">
+                    <div fxFlex="60" fxLayout="row" fxLayoutAlign="space-evenly stretch">
+                        <button [routerLink]="['/account/signin']" class="btn btn-outline">Sign in</button>
+                        <button class="btn btn-primary">Home</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="login-group" *ngIf="!resolved.session.authenticated && signout && created">
+            <div fxLayout="column" fxLayoutAlign="space-between stretch">
+                <h3>Your account have been created.</h3>
+                <h5 class="o-account">Fell free to sign in and explore our service,</h5>
+                <h5 class="o-account o-sub">or welcome back on a later time.</h5>
+                <div class="o-operation" fxLayout="row" fxLayoutAlign="end stretch">
+                    <div fxFlex="60" fxLayout="row" fxLayoutAlign="space-evenly stretch">
+                        <button [routerLink]="['/account/signin']" class="btn btn-outline">Sign in</button>
+                        <button class="btn btn-primary">Home</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>

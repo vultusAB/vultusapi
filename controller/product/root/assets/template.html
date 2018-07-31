@@ -1,0 +1,93 @@
+<div class="viewport" fxFlex fxLayout="row" fxLayoutAlign="start stretch">
+    <div class="background o-vertical-nav" fxFlex fxLayout="column" fxLayoutAlign="start end">
+        <div class="o-papper o-decoration" fxFill fxLayout="row" fxLayoutAlign="start stretch">
+            <div class="o-foundation"></div>
+        </div>
+        <div class="o-papper o-content" fxFill fxLayout="column" fxLayoutAlign="start end">
+            <div class="o-nav">
+
+            </div>
+            <div class="o-banner" fxLayout="row" fxLayoutAlign="end stretch">
+                <div class="o-perspective"></div>
+                <div class="o-fill" fxLayout="row" fxLayoutAlign="start stretch">
+                    <!--<div class="o-earth"></div> -->
+                    <div class="o-label o-title" fxLayout="column" fxLayoutAlign="center stretch">
+                        <div fxFlex="14"></div>
+                        <span fxFlex fxLayout="row" fxLayoutAlign="start center">
+                            <img class="o-vultus-ab" src="../../../../resources/images/favicon/vultus_ab_icon.png" />
+                            <h2 class="o-vultus-ab-text">VULTUS</h2>
+                        </span>
+                        <div fxFlex="34"></div>
+                    </div>
+                </div>
+            </div>
+            <product-navigation></product-navigation>
+        </div>
+    </div>
+    <div class="background o-container" fxLayout="column" fxLayoutAlign="start start">
+        <div class="o-nav" fxLayout="row" fxLayoutAlign="end stretch">
+            <div style="margin-left: 12px" fxFlex>
+                <div class="btn-group btn-text">
+                    <button class="btn" disabled>
+                        <span>Introduction</span>
+                    </button>
+                    <button class="btn" disabled>
+                        <span>Tutoria</span>
+                    </button>
+                    <button class="btn" disabled>
+                        <span>Contact</span>
+                    </button>
+                </div>
+            </div>
+            <!-- <div class="o-vultus"></div> -->
+            <div class="btn-group btn-icon">
+                <button class="btn" disabled>
+                    <clr-icon shape="user"></clr-icon>
+                    <span class="clr-icon-title">Profile</span>
+                </button>
+                <button [routerLink]="['/account/signout']" class="btn">
+                    <clr-icon shape="logout"></clr-icon>
+                    <span class="clr-icon-title">Sign out</span>
+                </button>
+            </div>
+        </div>
+        <div class="o-banner" fxLayout="row" fxLayoutAlign="start stretch">
+            <div class="o-fill" fxLayout="column" fxLayoutAlign="start stretch">
+                <div class="o-label o-title" fxLayout="column" fxLayoutAlign="center stretch">
+                    <div fxFlex="14"></div>
+                    <span fxFlex class="o-left">Vustaina Toolbox</span>
+                    <div fxFlex="34"></div>
+                </div>
+
+                <!--
+                <div class="o-label o-subtitle" fxLayout="column" fxLayoutAlign="start stretch">
+                    <span>There is always awesome things to do... I hope!</span>
+                </div>
+                -->
+            </div>
+        </div>
+        <div class="o-product o-content" fxLayout="column" fxLayoutAlign="start stretch">
+            <!-- Product container -->
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</div>
+<!--
+<div class="viewport footer" fxLayout="row" fxLayoutAlign="center stretch">
+    <div class="background footer o-vertical-nav" fxLayout="column" fxLayoutAlign="start end">
+        <div class="o-papper o-decoration" fxFill fxLayout="row" fxLayoutAlign="start stretch">
+            <div class="o-foundation"></div>
+            <div class="o-depth"></div>
+            <div class="o-content" fxLayout="row" fxLayoutAlign="end stretch">
+                <div class="o-depth"></div>
+            </div>
+        </div>
+    </div>
+    <div class="background footer o-container" fxLayout="column" fxLayoutAlign="start start">
+        <div class="o-product o-content">
+            <!-- Product container -->
+<!--
+        </div>
+    </div>
+</div>
+-->

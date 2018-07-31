@@ -1,0 +1,204 @@
+@import "../../../../resources/variables/product.color";
+@import "../../../../resources/variables/golden.ratio";
+
+.o-display {
+  margin: ratio(small, 96) * -1;
+  min-height: ratio(large, 1, 2) * 100px;
+
+  .o-top-progress {
+    background-color: snow(dawn);
+    height: ratio(small, 96, 2) * 100vh;
+    border-bottom-color: rgba(sky(night), ratio(large, 1, 2));
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-top-color: rgba(stone(day), ratio(small, 1, 2));
+    border-top-width: 1px;
+    border-top-style: solid;
+
+    position: relative;
+    progress {
+      position: absolute;
+      background-color: transparent;
+    }
+  }
+
+  header {
+    background-color: force(day) !important;
+    border-bottom-color: rgba(stone(dusk), ratio(small, 1, 2));
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    .branding {
+      width: 40%;
+
+      .nav-link.nav-text {
+        color: snow(dawn);
+        fill: snow(dawn);
+        h4 {
+          margin: 0;
+          margin-left: 6px;
+          margin-top: 6px;
+          color: snow(dawn);
+        }
+      }
+    }
+    .header-actions {
+      width: 60%;
+
+      .a {
+      }
+    }
+  }
+}
+.o-controller {
+  margin-top: ratio(small, 96) * 2;
+  .o-tab {
+    margin-top: 0.5px;
+    box-shadow: 0 -2px snow(day);
+    color: cave(night);
+    padding-top: ratio(large, 1, 2) * 10px;
+  }
+
+  .o-line:last-child {
+    margin-bottom: (ratio(small, 96) * -2) - 0.1%;
+    background-color: force(day);
+    padding: 0;
+    border-top-color: rgba(stone(dusk), ratio(small, 1, 2));
+    border-top-width: 1px;
+    border-top-style: solid;
+  }
+}
+.content {
+  &.o-decoration {
+    background-color: rgba(snow(dawn), ratio(large, 3, 2));
+    margin: ratio(small, 24);
+    margin-bottom: ratio(small, 48);
+
+    &.o-map-holder {
+      margin-top: 0;
+    }
+    &.o-controller-holder {
+      margin-bottom: 0;
+    }
+    .o-map {
+      padding: ratio(small, 96);
+      .o-controller {
+        min-height: ratio(large, 1, 2) * 100px;
+
+        .o-information {
+          height: ratio(small, 9, 2) * 100vh;
+        }
+        .o-line {
+          .btn {
+            margin: 0 !important;
+          }
+        }
+      }
+      .o-leaflet {
+        position: relative;
+        border-color: cave();
+        border-style: solid;
+        border-width: 1px;
+        width: 100%;
+        height: ratio(large, 1, 2) * 95vh;
+
+        .o-layer {
+          z-index: 1;
+          position: absolute;
+          height: 100%;
+          width: 100%;
+        }
+
+        .o-location {
+          z-index: 2;
+          position: absolute;
+          pointer-events: none;
+
+          .btn {
+            pointer-events: auto;
+            width: 125px;
+            margin: 0;
+            &.btn-link {
+              color: snow(dawn);
+              &:hover {
+                color: snow(dawn);
+                font-weight: 700;
+              }
+            }
+            &.btn-success-outline {
+              border-color: snow(dawn);
+              color: snow(dawn);
+
+              &:hover {
+                background-color: rgba(snow(dawn), ratio(small, 1, 2));
+                box-shadow: none;
+              }
+            }
+          }
+
+          .o-target {
+            height: 100%;
+            width: 100%;
+            padding: ratio(small, 9);
+            pointer-events: none;
+
+            $border: ratio(small, 1, 2) * 10px;
+
+            .o-fill,
+            .o-corner {
+              border: none;
+              border-color: snow(dawn);
+              border-width: 0;
+            }
+            .o-fill {
+              border-style: dashed;
+            }
+            .o-corner {
+              border-style: solid;
+            }
+
+            .o-fill.top,
+            .o-corner.top {
+              border-top-width: $border;
+            }
+            .o-fill.left,
+            .o-corner.left {
+              border-left-width: $border;
+            }
+            .o-fill.right,
+            .o-corner.right {
+              border-right-width: $border;
+            }
+            .o-fill.bottom,
+            .o-corner.bottom {
+              border-bottom-width: $border;
+            }
+          }
+          .o-information {
+            .o-banner {
+              pointer-events: auto;
+              background-color: rgba(snow(dawn), ratio(small, 1, 2));
+              height: ratio(small) / 2;
+
+              .form-group {
+                padding-left: 130px;
+              }
+              .form-group label {
+                width: 130px;
+              }
+              .form-group input {
+                width: 400px;
+                font-size: 24px;
+                line-height: 32px;
+                padding-bottom: 5px;
+                border-bottom-color: cave(day);
+              }
+            }
+            .btn-success-outline {
+              width: 160px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

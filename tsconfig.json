@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "outDir": "_dist/",
+    "module": "commonjs",
+    "target": "ES5",
+    "newLine": "LF",
+    "baseUrl": "./",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noImplicitAny": false,
+    "suppressImplicitAnyIndexErrors": true,
+    "allowSyntheticDefaultImports": true,
+    "typeRoots": ["node_modules/@types"],
+    "lib": ["es2017", "dom"]
+  },
+  "include": ["**/*"],
+  "exclude": ["_dist/"]
+}

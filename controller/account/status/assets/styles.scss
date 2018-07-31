@@ -1,0 +1,66 @@
+@import "../../../../resources/variables/product.color";
+@import "../../../../resources/variables/golden.ratio";
+
+.login-wrapper {
+  min-width: 520px;
+  width: ratio(large);
+}
+
+.login-wrapper,
+.login-wrapper form.login {
+  height: 100%;
+  min-height: 100%;
+  width: 100%;
+  max-width: 700px;
+  background-color: transparent;
+  background-image: none;
+  color: snow(dawn);
+  border: none;
+}
+.login-wrapper form.login {
+  padding-right: ratio(small) / 4;
+  padding-left: ratio(small) / 4;
+
+  &::after {
+    visibility: hidden;
+  }
+}
+form *,
+form > label.title,
+form > label.title > .hint {
+  color: snow(dawn);
+}
+form > label.title {
+  .hint {
+    margin-top: ratio(small, 2, 2) * 100px;
+  }
+}
+
+.login-group {
+  padding-top: ratio(large, 2, 2) * 100px;
+
+  .o-account {
+    margin-top: 12px !important;
+
+    &.o-sub {
+      margin-top: 0 !important;
+      margin-right: ratio(small, 12);
+      text-align: right;
+    }
+  }
+
+  .o-operation .btn {
+    margin-top: 36px !important;
+  }
+  .btn.btn-primary {
+    background-color: sky(dusk);
+    border: none;
+    box-shadow: none;
+    &:hover {
+      background-color: sky();
+    }
+    &:disabled {
+      color: snow(day);
+    }
+  }
+}

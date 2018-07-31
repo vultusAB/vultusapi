@@ -1,0 +1,1829 @@
+
+> vultus_platform_initialization@0.0.1 start /home/vultus/frontend
+> webpack-dev-server --hot --config ./support/_dist/webpack.development.js
+
+clean-webpack-plugin: /home/vultus/frontend is outside of the project root. Skipping...
+ℹ ｢wds｣: Project is running at [1m[34mhttp://0.0.0.0:3333/[39m[22m
+ℹ ｢wds｣: webpack output is served from [1m[34m/[39m[22m
+ℹ ｢wds｣: Content not from webpack is served from [1m[34m/home/vultus/frontend/_dist[39m[22m
+ℹ ｢wds｣: 404s will fallback to [1m[34m/index.html[39m[22m
+
+[at-loader] Using typescript@2.9.1 from typescript and "tsconfig.json" from /home/vultus/frontend/tsconfig.json.
+
+
+[at-loader] Checking started in a separate process...
+
+[at-loader] Ok, 1.441 sec.
+⚠ ｢wdm｣: Hash: [1mffcc61e933079bbac9f3[39m[22m
+Version: webpack [1m4.12.0[39m[22m
+Time: [1m11540[39m[22mms
+Built at: 2018-07-25 [1m13:34:15[39m[22m
+                          [1mAsset[39m[22m       [1mSize[39m[22m       [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+        [1m[32mfavicon/manifest.webapp[39m[22m  273 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+      [1m[32mfavicon/favicon-16x16.png[39m[22m  439 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+            [1m[32mfavicon/favicon.ico[39m[22m   32.5 KiB             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+  [1m[32mfavicon/firefox_app_60x60.png[39m[22m   2.42 KiB             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+[1m[32mfavicon/firefox_app_512x512.png[39m[22m     27 KiB             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+[1m[32mfavicon/firefox_app_128x128.png[39m[22m   5.26 KiB             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+      [1m[32mfavicon/favicon-32x32.png[39m[22m  870 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+                 [1m[32mfavicon/.cache[39m[22m  620 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+          [1m[32mapplication.bundle.js[39m[22m   8.12 MiB  [1mapplication[39m[22m  [1m[32m[emitted][39m[22m  application
+            [1m[32mpolyfills.bundle.js[39m[22m   1.46 MiB    [1mpolyfills[39m[22m  [1m[32m[emitted][39m[22m  polyfills
+                  [1m[32mresources.css[39m[22m    486 KiB    [1mresources[39m[22m  [1m[32m[emitted][39m[22m  resources
+            [1m[32mresources.bundle.js[39m[22m   1.98 MiB    [1mresources[39m[22m  [1m[32m[emitted][39m[22m  resources
+                     [1m[32mindex.html[39m[22m  601 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+Entrypoint [1mpolyfills[39m[22m = [1m[32mpolyfills.bundle.js[39m[22m
+Entrypoint [1mresources[39m[22m = [1m[32mresources.css[39m[22m [1m[32mresources.bundle.js[39m[22m
+Entrypoint [1mapplication[39m[22m = [1m[32mapplication.bundle.js[39m[22m
+ [[1m../controller/index.ts[39m[22m] 771 bytes {[1m[33mapplication[39m[22m}[1m[32m [built][39m[22m
+ [[1m../node_modules/@angular/core/bundles/core.umd.min.js[39m[22m] 179 KiB {[1m[33mresources[39m[22m}[1m[32m [built][39m[22m[1m[33m [2 warnings][39m[22m
+ [[1m../node_modules/@clr/icons/clr-icons.min.css[39m[22m] 39 bytes {[1m[33mresources[39m[22m}[1m[32m [built][39m[22m
+ [[1m../node_modules/@clr/icons/clr-icons.min.js[39m[22m] 544 KiB {[1m[33mresources[39m[22m}[1m[32m [built][39m[22m
+ [[1m../node_modules/@webcomponents/custom-elements/custom-elements.min.js[39m[22m] 15.4 KiB {[1m[33mpolyfills[39m[22m}[1m[32m [built][39m[22m
+ [[1m../node_modules/core-js/client/shim.min.js[39m[22m] 81.7 KiB {[1m[33mpolyfills[39m[22m}[1m[32m [built][39m[22m
+ [[1m../node_modules/mutationobserver-shim/dist/mutationobserver.min.js[39m[22m] 3.61 KiB {[1m[33mpolyfills[39m[22m}[1m[32m [built][39m[22m
+ [[1m../node_modules/web-animations-js/web-animations.min.js[39m[22m] 46.7 KiB {[1m[33mpolyfills[39m[22m}[1m[32m [built][39m[22m
+ [../node_modules/webpack-dev-server/client/index.js?http://0.0.0.0:3333] [1m../node_modules/webpack-dev-server/client?http://0.0.0.0:3333[39m[22m 7.75 KiB {[1m[33mapplication[39m[22m} {[1m[33mresources[39m[22m} {[1m[33mpolyfills[39m[22m}[1m[32m [built][39m[22m
+ [0] [1mmulti ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../support/polyfills/angular.ts ../node_modules/core-js/client/shim.min.js ../node_modules/mutationobserver-shim/dist/mutationobserver.min.js ../node_modules/web-animations-js/web-animations.min.js ../node_modules/@webcomponents/custom-elements/custom-elements.min.js[39m[22m 100 bytes {[1m[33mpolyfills[39m[22m}[1m[32m [built][39m[22m
+ [[1m../node_modules/webpack/hot/dev-server.js[39m[22m] 1.6 KiB {[1m[33mapplication[39m[22m} {[1m[33mresources[39m[22m} {[1m[33mpolyfills[39m[22m}[1m[32m [built][39m[22m
+ [[1m../resources/styles/global.scss[39m[22m] 1.61 KiB {[1m[33mresources[39m[22m}[1m[32m [built][39m[22m
+ [[1m../resources/styles/node-modules/@clr/ui/clr-ui.scss[39m[22m] 1.75 KiB {[1m[33mresources[39m[22m}[1m[32m [built][39m[22m
+ [5] [1mmulti ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../node_modules/@clr/icons/clr-icons.min.css ../node_modules/@clr/icons/clr-icons.min.js ../resources/styles/node-modules/@clr/ui/clr-ui.scss ../resources/styles/global.scss ../resources/styles/node-modules/leaflet/dist/leaflet.scss ../resources/styles/node-modules/leaflet-draw/dist/leaflet.draw.scss ../node_modules/@angular/core/bundles/core.umd.min.js[39m[22m 124 bytes {[1m[33mresources[39m[22m}[1m[32m [built][39m[22m
+[11] [1mmulti ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../controller/index.ts[39m[22m 52 bytes {[1m[33mapplication[39m[22m}[1m[32m [built][39m[22m
+    + 831 hidden modules
+
+[1m[33mWARNING in ../node_modules/@angular/core/bundles/core.umd.min.js 225:696-712
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../node_modules/@clr/icons/clr-icons.min.css ../node_modules/@clr/icons/clr-icons.min.js ../resources/styles/node-modules/@clr/ui/clr-ui.scss ../resources/styles/global.scss ../resources/styles/node-modules/leaflet/dist/leaflet.scss ../resources/styles/node-modules/leaflet-draw/dist/leaflet.draw.scss ../node_modules/@angular/core/bundles/core.umd.min.js[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/bundles/core.umd.min.js 225:967-1045
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../node_modules/@clr/icons/clr-icons.min.css ../node_modules/@clr/icons/clr-icons.min.js ../resources/styles/node-modules/@clr/ui/clr-ui.scss ../resources/styles/global.scss ../resources/styles/node-modules/leaflet/dist/leaflet.scss ../resources/styles/node-modules/leaflet-draw/dist/leaflet.draw.scss ../node_modules/@angular/core/bundles/core.umd.min.js[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/fesm5/core.js 4826:15-36
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ ../controller/index.ts 4:13-37
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../controller/index.ts[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/fesm5/core.js 4838:15-102
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ ../controller/index.ts 4:13-37
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../controller/index.ts[39m[22m
+Child [1mfavicons-webpack-plugin for "iconstats-[hash].json"[39m[22m:
+                              [1mAsset[39m[22m       [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+          [1m[32mfavicon/favicon-16x16.png[39m[22m  439 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+          [1m[32mfavicon/favicon-32x32.png[39m[22m  870 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+                [1m[32mfavicon/favicon.ico[39m[22m   32.5 KiB        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+      [1m[32mfavicon/firefox_app_60x60.png[39m[22m   2.42 KiB        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+    [1m[32mfavicon/firefox_app_512x512.png[39m[22m     27 KiB        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+    [1m[32mfavicon/firefox_app_128x128.png[39m[22m   5.26 KiB        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+            [1m[32mfavicon/manifest.webapp[39m[22m  273 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+                     [1m[32mfavicon/.cache[39m[22m  620 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+     + 1 hidden asset
+    Entrypoint [1mundefined[39m[22m = [1m[32miconstats-c79dfdb03c310e868bfe.json[39m[22m
+    [[1m../node_modules/favicons-webpack-plugin/lib/favicons.js?{"outputFilePrefix":"favicon/","icons":{"android":false,"appleIcon":false,"appleStartup":false,"coast":false,"favicons":true,"firefox":true,"opengraph":false,"twitter":false,"yandex":false,"windows":false},"background":"#fff","persistentCache":true,"appName":"vultus_platform_initialization"}!../resources/images/favicon/vultus_ab_icon.png[39m[22m] 518 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+Child [1mhtml-webpack-plugin for "index.html"[39m[22m:
+     1 asset
+    Entrypoint [1mundefined[39m[22m = [1m[32mindex.html[39m[22m
+    [[1m../node_modules/html-webpack-plugin/lib/loader.js!../node_modules/html-webpack-plugin/default_index.ejs[39m[22m] 376 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+    [[1m../node_modules/lodash/lodash.js[39m[22m] 527 KiB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+    [[1m../node_modules/webpack/buildin/global.js[39m[22m] 489 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+    [[1m../node_modules/webpack/buildin/module.js[39m[22m] 497 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+Child [1mmini-css-extract-plugin ../node_modules/css-loader/index.js!../node_modules/@clr/icons/clr-icons.min.css[39m[22m:
+    Entrypoint [1mmini-css-extract-plugin[39m[22m = [1m[32m*[39m[22m
+    [../node_modules/css-loader/index.js!../node_modules/@clr/icons/clr-icons.min.css] [1m../node_modules/css-loader!../node_modules/@clr/icons/clr-icons.min.css[39m[22m 4 KiB {[1m[33mmini-css-extract-plugin[39m[22m}[1m[32m [built][39m[22m
+    [[1m../node_modules/css-loader/lib/css-base.js[39m[22m] 2.21 KiB {[1m[33mmini-css-extract-plugin[39m[22m}[1m[32m [built][39m[22m
+Child [1mmini-css-extract-plugin ../node_modules/css-loader/index.js!../node_modules/sass-loader/lib/loader.js!../resources/styles/global.scss[39m[22m:
+    Entrypoint [1mmini-css-extract-plugin[39m[22m = [1m[32m*[39m[22m
+    [../node_modules/css-loader/index.js!../node_modules/sass-loader/lib/loader.js!../resources/styles/global.scss] [1m../node_modules/css-loader!../node_modules/sass-loader/lib/loader.js!../resources/styles/global.scss[39m[22m 515 bytes {[1m[33mmini-css-extract-plugin[39m[22m}[1m[32m [built][39m[22m
+    [[1m../node_modules/css-loader/lib/css-base.js[39m[22m] 2.21 KiB {[1m[33mmini-css-extract-plugin[39m[22m}[1m[32m [built][39m[22m
+Child [1mmini-css-extract-plugin ../node_modules/css-loader/index.js!../node_modules/sass-loader/lib/loader.js!../resources/styles/node-modules/@clr/ui/clr-ui.scss[39m[22m:
+    Entrypoint [1mmini-css-extract-plugin[39m[22m = [1m[32m*[39m[22m
+    [../node_modules/css-loader/index.js!../node_modules/sass-loader/lib/loader.js!../resources/styles/node-modules/@clr/ui/clr-ui.scss] [1m../node_modules/css-loader!../node_modules/sass-loader/lib/loader.js!../resources/styles/node-modules/@clr/ui/clr-ui.scss[39m[22m 443 KiB {[1m[33mmini-css-extract-plugin[39m[22m}[1m[32m [built][39m[22m
+    [[1m../node_modules/css-loader/lib/css-base.js[39m[22m] 2.21 KiB {[1m[33mmini-css-extract-plugin[39m[22m}[1m[32m [built][39m[22m
+Child [1mmini-css-extract-plugin ../node_modules/css-loader/index.js!../node_modules/sass-loader/lib/loader.js!../resources/styles/node-modules/leaflet-draw/dist/leaflet.draw.scss[39m[22m:
+    Entrypoint [1mmini-css-extract-plugin[39m[22m = [1m[32m*[39m[22m
+    [../node_modules/css-loader/index.js!../node_modules/sass-loader/lib/loader.js!../resources/styles/node-modules/leaflet-draw/dist/leaflet.draw.scss] [1m../node_modules/css-loader!../node_modules/sass-loader/lib/loader.js!../resources/styles/node-modules/leaflet-draw/dist/leaflet.draw.scss[39m[22m 6.58 KiB {[1m[33mmini-css-extract-plugin[39m[22m}[1m[32m [built][39m[22m
+    [[1m../node_modules/css-loader/lib/css-base.js[39m[22m] 2.21 KiB {[1m[33mmini-css-extract-plugin[39m[22m}[1m[32m [built][39m[22m
+    [[1m../node_modules/css-loader/lib/url/escape.js[39m[22m] 448 bytes {[1m[33mmini-css-extract-plugin[39m[22m}[1m[32m [built][39m[22m
+    [[1m../resources/styles/node-modules/leaflet-draw/dist/images/spritesheet-2x.png[39m[22m] 4.7 KiB {[1m[33mmini-css-extract-plugin[39m[22m}[1m[32m [built][39m[22m
+    [[1m../resources/styles/node-modules/leaflet-draw/dist/images/spritesheet.png[39m[22m] 2.52 KiB {[1m[33mmini-css-extract-plugin[39m[22m}[1m[32m [built][39m[22m
+    [[1m../resources/styles/node-modules/leaflet-draw/dist/images/spritesheet.svg[39m[22m] 7.27 KiB {[1m[33mmini-css-extract-plugin[39m[22m}[1m[32m [built][39m[22m
+Child [1mmini-css-extract-plugin ../node_modules/css-loader/index.js!../node_modules/sass-loader/lib/loader.js!../resources/styles/node-modules/leaflet/dist/leaflet.scss[39m[22m:
+    Entrypoint [1mmini-css-extract-plugin[39m[22m = [1m[32m*[39m[22m
+    [../node_modules/css-loader/index.js!../node_modules/sass-loader/lib/loader.js!../resources/styles/node-modules/leaflet/dist/leaflet.scss] [1m../node_modules/css-loader!../node_modules/sass-loader/lib/loader.js!../resources/styles/node-modules/leaflet/dist/leaflet.scss[39m[22m 14.3 KiB {[1m[33mmini-css-extract-plugin[39m[22m}[1m[32m [built][39m[22m
+    [[1m../node_modules/css-loader/lib/css-base.js[39m[22m] 2.21 KiB {[1m[33mmini-css-extract-plugin[39m[22m}[1m[32m [built][39m[22m
+    [[1m../node_modules/css-loader/lib/url/escape.js[39m[22m] 448 bytes {[1m[33mmini-css-extract-plugin[39m[22m}[1m[32m [built][39m[22m
+    [[1m../resources/styles/node-modules/leaflet/dist/images/layers-2x.png[39m[22m] 3.88 KiB {[1m[33mmini-css-extract-plugin[39m[22m}[1m[32m [built][39m[22m
+    [[1m../resources/styles/node-modules/leaflet/dist/images/layers.png[39m[22m] 2.7 KiB {[1m[33mmini-css-extract-plugin[39m[22m}[1m[32m [built][39m[22m
+    [[1m../resources/styles/node-modules/leaflet/dist/images/marker-icon.png[39m[22m] 1.95 KiB {[1m[33mmini-css-extract-plugin[39m[22m}[1m[32m [built][39m[22m
+ℹ ｢wdm｣: Compiled with warnings.
+ℹ ｢wdm｣: Compiling...
+ℹ ｢wdm｣: wait until bundle finished: /c6a55a2cf3cb7f8e6677.hot-update.json
+
+[at-loader] Checking started in a separate process...
+
+[at-loader] Ok, 0.004 sec.
+⚠ ｢wdm｣: Hash: [1maece01c1624432031149[39m[22m
+Version: webpack [1m4.12.0[39m[22m
+Time: [1m746[39m[22mms
+Built at: 2018-07-25 [1m13:34:16[39m[22m
+                               [1mAsset[39m[22m       [1mSize[39m[22m       [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+[1m[32mc79dfdb03c310e868bfe.hot-update.json[39m[22m   44 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+[1m[32mf8d66b71e4f79d4749e7.hot-update.json[39m[22m   44 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+               [1m[32mapplication.bundle.js[39m[22m   8.12 MiB  [1mapplication[39m[22m  [1m[32m[emitted][39m[22m  application
+                 [1m[32mpolyfills.bundle.js[39m[22m   1.46 MiB    [1mpolyfills[39m[22m  [1m[32m[emitted][39m[22m  polyfills
+                 [1m[32mresources.bundle.js[39m[22m   1.98 MiB    [1mresources[39m[22m  [1m[32m[emitted][39m[22m  resources
+[1m[32mffcc61e933079bbac9f3.hot-update.json[39m[22m   35 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+                          [1m[32mindex.html[39m[22m  383 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+ + 9 hidden assets
+Entrypoint [1mpolyfills[39m[22m = [1m[32mpolyfills.bundle.js[39m[22m
+Entrypoint [1mresources[39m[22m = [1m[32mresources.css[39m[22m [1m[32mresources.bundle.js[39m[22m
+Entrypoint [1mapplication[39m[22m = [1m[32mapplication.bundle.js[39m[22m
+[./.. lazy recursive] [1m.. lazy namespace object[39m[22m 160 bytes {[1m[33mapplication[39m[22m} {[1m[33mresources[39m[22m}[1m[32m [built][39m[22m
+    + 845 hidden modules
+
+[1m[33mWARNING in ../node_modules/@angular/core/bundles/core.umd.min.js 225:696-712
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../node_modules/@clr/icons/clr-icons.min.css ../node_modules/@clr/icons/clr-icons.min.js ../resources/styles/node-modules/@clr/ui/clr-ui.scss ../resources/styles/global.scss ../resources/styles/node-modules/leaflet/dist/leaflet.scss ../resources/styles/node-modules/leaflet-draw/dist/leaflet.draw.scss ../node_modules/@angular/core/bundles/core.umd.min.js[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/bundles/core.umd.min.js 225:967-1045
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../node_modules/@clr/icons/clr-icons.min.css ../node_modules/@clr/icons/clr-icons.min.js ../resources/styles/node-modules/@clr/ui/clr-ui.scss ../resources/styles/global.scss ../resources/styles/node-modules/leaflet/dist/leaflet.scss ../resources/styles/node-modules/leaflet-draw/dist/leaflet.draw.scss ../node_modules/@angular/core/bundles/core.umd.min.js[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/fesm5/core.js 4826:15-36
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ ../controller/index.ts 4:13-37
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../controller/index.ts[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/fesm5/core.js 4838:15-102
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ ../controller/index.ts 4:13-37
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../controller/index.ts[39m[22m
+Child [1mfavicons-webpack-plugin for "iconstats-[hash].json"[39m[22m:
+                                   [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32mc79dfdb03c310e868bfe.hot-update.json[39m[22m  44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+     + 9 hidden assets
+    Entrypoint [1mundefined[39m[22m = [1m[32miconstats-54393f88b9ff9a123b25.json[39m[22m
+       1 module
+Child [1mhtml-webpack-plugin for "index.html"[39m[22m:
+                                   [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32mf8d66b71e4f79d4749e7.hot-update.json[39m[22m  44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+     + 1 hidden asset
+    Entrypoint [1mundefined[39m[22m = [1m[32mindex.html[39m[22m
+       4 modules
+ℹ ｢wdm｣: Compiled with warnings.
+ℹ ｢wdm｣: Compiling...
+ℹ ｢wdm｣: wait until bundle finished: /c6a55a2cf3cb7f8e6677.hot-update.json
+
+[at-loader] Checking started in a separate process...
+
+[at-loader] Ok, 0.006 sec.
+⚠ ｢wdm｣: Hash: [1ma3fe08f5a8b3916652fe[39m[22m
+Version: webpack [1m4.12.0[39m[22m
+Time: [1m1298[39m[22mms
+Built at: 2018-07-25 [1m13:34:18[39m[22m
+                               [1mAsset[39m[22m       [1mSize[39m[22m       [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+[1m[32m54393f88b9ff9a123b25.hot-update.json[39m[22m   44 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+[1m[32mc0796c33674a8a7d8a3b.hot-update.json[39m[22m   44 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+               [1m[32mapplication.bundle.js[39m[22m   8.12 MiB  [1mapplication[39m[22m  [1m[32m[emitted][39m[22m  application
+                 [1m[32mpolyfills.bundle.js[39m[22m   1.46 MiB    [1mpolyfills[39m[22m  [1m[32m[emitted][39m[22m  polyfills
+                 [1m[32mresources.bundle.js[39m[22m   1.98 MiB    [1mresources[39m[22m  [1m[32m[emitted][39m[22m  resources
+[1m[32maece01c1624432031149.hot-update.json[39m[22m   35 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+                          [1m[32mindex.html[39m[22m  383 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+ + 9 hidden assets
+Entrypoint [1mpolyfills[39m[22m = [1m[32mpolyfills.bundle.js[39m[22m
+Entrypoint [1mresources[39m[22m = [1m[32mresources.css[39m[22m [1m[32mresources.bundle.js[39m[22m
+Entrypoint [1mapplication[39m[22m = [1m[32mapplication.bundle.js[39m[22m
+[./.. lazy recursive] [1m.. lazy namespace object[39m[22m 160 bytes {[1m[33mapplication[39m[22m} {[1m[33mresources[39m[22m}[1m[32m [built][39m[22m
+    + 845 hidden modules
+
+[1m[33mWARNING in ../node_modules/@angular/core/bundles/core.umd.min.js 225:696-712
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../node_modules/@clr/icons/clr-icons.min.css ../node_modules/@clr/icons/clr-icons.min.js ../resources/styles/node-modules/@clr/ui/clr-ui.scss ../resources/styles/global.scss ../resources/styles/node-modules/leaflet/dist/leaflet.scss ../resources/styles/node-modules/leaflet-draw/dist/leaflet.draw.scss ../node_modules/@angular/core/bundles/core.umd.min.js[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/bundles/core.umd.min.js 225:967-1045
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../node_modules/@clr/icons/clr-icons.min.css ../node_modules/@clr/icons/clr-icons.min.js ../resources/styles/node-modules/@clr/ui/clr-ui.scss ../resources/styles/global.scss ../resources/styles/node-modules/leaflet/dist/leaflet.scss ../resources/styles/node-modules/leaflet-draw/dist/leaflet.draw.scss ../node_modules/@angular/core/bundles/core.umd.min.js[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/fesm5/core.js 4826:15-36
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ ../controller/index.ts 4:13-37
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../controller/index.ts[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/fesm5/core.js 4838:15-102
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ ../controller/index.ts 4:13-37
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../controller/index.ts[39m[22m
+Child [1mfavicons-webpack-plugin for "iconstats-[hash].json"[39m[22m:
+                                   [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32m54393f88b9ff9a123b25.hot-update.json[39m[22m  44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+     + 9 hidden assets
+    Entrypoint [1mundefined[39m[22m = [1m[32miconstats-5433dc6153f00115eca5.json[39m[22m
+       1 module
+Child [1mhtml-webpack-plugin for "index.html"[39m[22m:
+                                   [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32mc0796c33674a8a7d8a3b.hot-update.json[39m[22m  44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+     + 1 hidden asset
+    Entrypoint [1mundefined[39m[22m = [1m[32mindex.html[39m[22m
+       4 modules
+ℹ ｢wdm｣: Compiled with warnings.
+ℹ ｢wdm｣: Compiling...
+
+[at-loader] Checking started in a separate process...
+
+[at-loader] Ok, 0.003 sec.
+ℹ ｢wdm｣: wait until bundle finished: /c6a55a2cf3cb7f8e6677.hot-update.json
+ℹ ｢wdm｣: wait until bundle finished: /product/field/jje1af41?latlng=55.4440356393685,13.000793499999983&z=15
+⚠ ｢wdm｣: Hash: [1m1e7aaae2747bcb786824[39m[22m
+Version: webpack [1m4.12.0[39m[22m
+Time: [1m1209[39m[22mms
+Built at: 2018-07-25 [1m13:34:21[39m[22m
+                               [1mAsset[39m[22m       [1mSize[39m[22m       [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+[1m[32m5433dc6153f00115eca5.hot-update.json[39m[22m   44 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+[1m[32m9a342e486dc41bcecd43.hot-update.json[39m[22m   44 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+               [1m[32mapplication.bundle.js[39m[22m   8.12 MiB  [1mapplication[39m[22m  [1m[32m[emitted][39m[22m  application
+                 [1m[32mpolyfills.bundle.js[39m[22m   1.46 MiB    [1mpolyfills[39m[22m  [1m[32m[emitted][39m[22m  polyfills
+                 [1m[32mresources.bundle.js[39m[22m   1.98 MiB    [1mresources[39m[22m  [1m[32m[emitted][39m[22m  resources
+[1m[32ma3fe08f5a8b3916652fe.hot-update.json[39m[22m   35 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+                          [1m[32mindex.html[39m[22m  383 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+ + 9 hidden assets
+Entrypoint [1mpolyfills[39m[22m = [1m[32mpolyfills.bundle.js[39m[22m
+Entrypoint [1mresources[39m[22m = [1m[32mresources.css[39m[22m [1m[32mresources.bundle.js[39m[22m
+Entrypoint [1mapplication[39m[22m = [1m[32mapplication.bundle.js[39m[22m
+[./.. lazy recursive] [1m.. lazy namespace object[39m[22m 160 bytes {[1m[33mapplication[39m[22m} {[1m[33mresources[39m[22m}[1m[32m [built][39m[22m
+    + 845 hidden modules
+
+[1m[33mWARNING in ../node_modules/@angular/core/bundles/core.umd.min.js 225:696-712
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../node_modules/@clr/icons/clr-icons.min.css ../node_modules/@clr/icons/clr-icons.min.js ../resources/styles/node-modules/@clr/ui/clr-ui.scss ../resources/styles/global.scss ../resources/styles/node-modules/leaflet/dist/leaflet.scss ../resources/styles/node-modules/leaflet-draw/dist/leaflet.draw.scss ../node_modules/@angular/core/bundles/core.umd.min.js[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/bundles/core.umd.min.js 225:967-1045
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../node_modules/@clr/icons/clr-icons.min.css ../node_modules/@clr/icons/clr-icons.min.js ../resources/styles/node-modules/@clr/ui/clr-ui.scss ../resources/styles/global.scss ../resources/styles/node-modules/leaflet/dist/leaflet.scss ../resources/styles/node-modules/leaflet-draw/dist/leaflet.draw.scss ../node_modules/@angular/core/bundles/core.umd.min.js[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/fesm5/core.js 4826:15-36
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ ../controller/index.ts 4:13-37
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../controller/index.ts[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/fesm5/core.js 4838:15-102
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ ../controller/index.ts 4:13-37
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../controller/index.ts[39m[22m
+Child [1mfavicons-webpack-plugin for "iconstats-[hash].json"[39m[22m:
+                                   [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32m5433dc6153f00115eca5.hot-update.json[39m[22m  44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+     + 9 hidden assets
+    Entrypoint [1mundefined[39m[22m = [1m[32miconstats-21b07577cb582ef825ba.json[39m[22m
+       1 module
+Child [1mhtml-webpack-plugin for "index.html"[39m[22m:
+                                   [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32m9a342e486dc41bcecd43.hot-update.json[39m[22m  44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+     + 1 hidden asset
+    Entrypoint [1mundefined[39m[22m = [1m[32mindex.html[39m[22m
+       4 modules
+ℹ ｢wdm｣: Compiled with warnings.
+ℹ ｢wdm｣: Compiling...
+ℹ ｢wdm｣: wait until bundle finished: /c6a55a2cf3cb7f8e6677.hot-update.json
+ℹ ｢wdm｣: wait until bundle finished: /index.html
+
+[at-loader] Checking started in a separate process...
+
+[at-loader] Ok, 0.004 sec.
+⚠ ｢wdm｣: Hash: [1mbc58c7d1ac01f72674a9[39m[22m
+Version: webpack [1m4.12.0[39m[22m
+Time: [1m1583[39m[22mms
+Built at: 2018-07-25 [1m13:34:24[39m[22m
+                               [1mAsset[39m[22m       [1mSize[39m[22m       [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+[1m[32m21b07577cb582ef825ba.hot-update.json[39m[22m   44 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+[1m[32m4be1eaa673ef95f5e220.hot-update.json[39m[22m   44 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+               [1m[32mapplication.bundle.js[39m[22m   8.12 MiB  [1mapplication[39m[22m  [1m[32m[emitted][39m[22m  application
+                 [1m[32mpolyfills.bundle.js[39m[22m   1.46 MiB    [1mpolyfills[39m[22m  [1m[32m[emitted][39m[22m  polyfills
+                 [1m[32mresources.bundle.js[39m[22m   1.98 MiB    [1mresources[39m[22m  [1m[32m[emitted][39m[22m  resources
+[1m[32m1e7aaae2747bcb786824.hot-update.json[39m[22m   35 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+                          [1m[32mindex.html[39m[22m  383 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+ + 9 hidden assets
+Entrypoint [1mpolyfills[39m[22m = [1m[32mpolyfills.bundle.js[39m[22m
+Entrypoint [1mresources[39m[22m = [1m[32mresources.css[39m[22m [1m[32mresources.bundle.js[39m[22m
+Entrypoint [1mapplication[39m[22m = [1m[32mapplication.bundle.js[39m[22m
+[./.. lazy recursive] [1m.. lazy namespace object[39m[22m 160 bytes {[1m[33mapplication[39m[22m} {[1m[33mresources[39m[22m}[1m[32m [built][39m[22m
+    + 845 hidden modules
+
+[1m[33mWARNING in ../node_modules/@angular/core/bundles/core.umd.min.js 225:696-712
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../node_modules/@clr/icons/clr-icons.min.css ../node_modules/@clr/icons/clr-icons.min.js ../resources/styles/node-modules/@clr/ui/clr-ui.scss ../resources/styles/global.scss ../resources/styles/node-modules/leaflet/dist/leaflet.scss ../resources/styles/node-modules/leaflet-draw/dist/leaflet.draw.scss ../node_modules/@angular/core/bundles/core.umd.min.js[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/bundles/core.umd.min.js 225:967-1045
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../node_modules/@clr/icons/clr-icons.min.css ../node_modules/@clr/icons/clr-icons.min.js ../resources/styles/node-modules/@clr/ui/clr-ui.scss ../resources/styles/global.scss ../resources/styles/node-modules/leaflet/dist/leaflet.scss ../resources/styles/node-modules/leaflet-draw/dist/leaflet.draw.scss ../node_modules/@angular/core/bundles/core.umd.min.js[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/fesm5/core.js 4826:15-36
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ ../controller/index.ts 4:13-37
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../controller/index.ts[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/fesm5/core.js 4838:15-102
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ ../controller/index.ts 4:13-37
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../controller/index.ts[39m[22m
+Child [1mfavicons-webpack-plugin for "iconstats-[hash].json"[39m[22m:
+                                   [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32m21b07577cb582ef825ba.hot-update.json[39m[22m  44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+     + 9 hidden assets
+    Entrypoint [1mundefined[39m[22m = [1m[32miconstats-bd3e1056558ef62c34f8.json[39m[22m
+       1 module
+Child [1mhtml-webpack-plugin for "index.html"[39m[22m:
+                                   [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32m4be1eaa673ef95f5e220.hot-update.json[39m[22m  44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+     + 1 hidden asset
+    Entrypoint [1mundefined[39m[22m = [1m[32mindex.html[39m[22m
+       4 modules
+ℹ ｢wdm｣: Compiled with warnings.
+ℹ ｢wdm｣: Compiling...
+
+[at-loader] Checking started in a separate process...
+
+[at-loader] Ok, 0.003 sec.
+ℹ ｢wdm｣: wait until bundle finished: /c6a55a2cf3cb7f8e6677.hot-update.json
+ℹ ｢wdm｣: wait until bundle finished: /resources.css
+ℹ ｢wdm｣: wait until bundle finished: /polyfills.bundle.js
+ℹ ｢wdm｣: wait until bundle finished: /resources.bundle.js
+ℹ ｢wdm｣: wait until bundle finished: /application.bundle.js
+⚠ ｢wdm｣: Hash: [1mfb8c6319b126ce63ec61[39m[22m
+Version: webpack [1m4.12.0[39m[22m
+Time: [1m1895[39m[22mms
+Built at: 2018-07-25 [1m13:34:27[39m[22m
+                               [1mAsset[39m[22m       [1mSize[39m[22m       [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+[1m[32mbd3e1056558ef62c34f8.hot-update.json[39m[22m   44 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+[1m[32m791971b1485aaa6b4505.hot-update.json[39m[22m   44 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+               [1m[32mapplication.bundle.js[39m[22m   8.12 MiB  [1mapplication[39m[22m  [1m[32m[emitted][39m[22m  application
+                 [1m[32mpolyfills.bundle.js[39m[22m   1.46 MiB    [1mpolyfills[39m[22m  [1m[32m[emitted][39m[22m  polyfills
+                 [1m[32mresources.bundle.js[39m[22m   1.98 MiB    [1mresources[39m[22m  [1m[32m[emitted][39m[22m  resources
+[1m[32mbc58c7d1ac01f72674a9.hot-update.json[39m[22m   35 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+                          [1m[32mindex.html[39m[22m  383 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+ + 9 hidden assets
+Entrypoint [1mpolyfills[39m[22m = [1m[32mpolyfills.bundle.js[39m[22m
+Entrypoint [1mresources[39m[22m = [1m[32mresources.css[39m[22m [1m[32mresources.bundle.js[39m[22m
+Entrypoint [1mapplication[39m[22m = [1m[32mapplication.bundle.js[39m[22m
+[./.. lazy recursive] [1m.. lazy namespace object[39m[22m 160 bytes {[1m[33mapplication[39m[22m} {[1m[33mresources[39m[22m}[1m[32m [built][39m[22m
+    + 845 hidden modules
+
+[1m[33mWARNING in ../node_modules/@angular/core/bundles/core.umd.min.js 225:696-712
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../node_modules/@clr/icons/clr-icons.min.css ../node_modules/@clr/icons/clr-icons.min.js ../resources/styles/node-modules/@clr/ui/clr-ui.scss ../resources/styles/global.scss ../resources/styles/node-modules/leaflet/dist/leaflet.scss ../resources/styles/node-modules/leaflet-draw/dist/leaflet.draw.scss ../node_modules/@angular/core/bundles/core.umd.min.js[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/bundles/core.umd.min.js 225:967-1045
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../node_modules/@clr/icons/clr-icons.min.css ../node_modules/@clr/icons/clr-icons.min.js ../resources/styles/node-modules/@clr/ui/clr-ui.scss ../resources/styles/global.scss ../resources/styles/node-modules/leaflet/dist/leaflet.scss ../resources/styles/node-modules/leaflet-draw/dist/leaflet.draw.scss ../node_modules/@angular/core/bundles/core.umd.min.js[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/fesm5/core.js 4826:15-36
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ ../controller/index.ts 4:13-37
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../controller/index.ts[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/fesm5/core.js 4838:15-102
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ ../controller/index.ts 4:13-37
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../controller/index.ts[39m[22m
+Child [1mfavicons-webpack-plugin for "iconstats-[hash].json"[39m[22m:
+                                   [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32mbd3e1056558ef62c34f8.hot-update.json[39m[22m  44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+     + 9 hidden assets
+    Entrypoint [1mundefined[39m[22m = [1m[32miconstats-a7e5780d6f7db2fb8824.json[39m[22m
+       1 module
+Child [1mhtml-webpack-plugin for "index.html"[39m[22m:
+                                   [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32m791971b1485aaa6b4505.hot-update.json[39m[22m  44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+     + 1 hidden asset
+    Entrypoint [1mundefined[39m[22m = [1m[32mindex.html[39m[22m
+       4 modules
+ℹ ｢wdm｣: Compiled with warnings.
+ℹ ｢wdm｣: Compiling...
+ℹ ｢wdm｣: wait until bundle finished: /c6a55a2cf3cb7f8e6677.hot-update.json
+
+[at-loader] Checking started in a separate process...
+
+[at-loader] Ok, 0.003 sec.
+⚠ ｢wdm｣: Hash: [1m7e937d7d409238559e79[39m[22m
+Version: webpack [1m4.12.0[39m[22m
+Time: [1m2447[39m[22mms
+Built at: 2018-07-25 [1m13:34:31[39m[22m
+                               [1mAsset[39m[22m       [1mSize[39m[22m       [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+[1m[32ma7e5780d6f7db2fb8824.hot-update.json[39m[22m   44 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+[1m[32medf6c946a85075566dba.hot-update.json[39m[22m   44 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+               [1m[32mapplication.bundle.js[39m[22m   8.12 MiB  [1mapplication[39m[22m  [1m[32m[emitted][39m[22m  application
+                 [1m[32mpolyfills.bundle.js[39m[22m   1.46 MiB    [1mpolyfills[39m[22m  [1m[32m[emitted][39m[22m  polyfills
+                 [1m[32mresources.bundle.js[39m[22m   1.98 MiB    [1mresources[39m[22m  [1m[32m[emitted][39m[22m  resources
+[1m[32mfb8c6319b126ce63ec61.hot-update.json[39m[22m   35 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+                          [1m[32mindex.html[39m[22m  383 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+ + 9 hidden assets
+Entrypoint [1mpolyfills[39m[22m = [1m[32mpolyfills.bundle.js[39m[22m
+Entrypoint [1mresources[39m[22m = [1m[32mresources.css[39m[22m [1m[32mresources.bundle.js[39m[22m
+Entrypoint [1mapplication[39m[22m = [1m[32mapplication.bundle.js[39m[22m
+[./.. lazy recursive] [1m.. lazy namespace object[39m[22m 160 bytes {[1m[33mapplication[39m[22m} {[1m[33mresources[39m[22m}[1m[32m [built][39m[22m
+    + 845 hidden modules
+
+[1m[33mWARNING in ../node_modules/@angular/core/bundles/core.umd.min.js 225:696-712
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../node_modules/@clr/icons/clr-icons.min.css ../node_modules/@clr/icons/clr-icons.min.js ../resources/styles/node-modules/@clr/ui/clr-ui.scss ../resources/styles/global.scss ../resources/styles/node-modules/leaflet/dist/leaflet.scss ../resources/styles/node-modules/leaflet-draw/dist/leaflet.draw.scss ../node_modules/@angular/core/bundles/core.umd.min.js[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/bundles/core.umd.min.js 225:967-1045
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../node_modules/@clr/icons/clr-icons.min.css ../node_modules/@clr/icons/clr-icons.min.js ../resources/styles/node-modules/@clr/ui/clr-ui.scss ../resources/styles/global.scss ../resources/styles/node-modules/leaflet/dist/leaflet.scss ../resources/styles/node-modules/leaflet-draw/dist/leaflet.draw.scss ../node_modules/@angular/core/bundles/core.umd.min.js[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/fesm5/core.js 4826:15-36
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ ../controller/index.ts 4:13-37
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../controller/index.ts[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/fesm5/core.js 4838:15-102
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ ../controller/index.ts 4:13-37
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../controller/index.ts[39m[22m
+Child [1mfavicons-webpack-plugin for "iconstats-[hash].json"[39m[22m:
+                                   [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32ma7e5780d6f7db2fb8824.hot-update.json[39m[22m  44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+     + 9 hidden assets
+    Entrypoint [1mundefined[39m[22m = [1m[32miconstats-7056c23d7e1424eb8cda.json[39m[22m
+       1 module
+Child [1mhtml-webpack-plugin for "index.html"[39m[22m:
+                                   [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32medf6c946a85075566dba.hot-update.json[39m[22m  44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+     + 1 hidden asset
+    Entrypoint [1mundefined[39m[22m = [1m[32mindex.html[39m[22m
+       4 modules
+ℹ ｢wdm｣: Compiled with warnings.
+ℹ ｢wdm｣: Compiling...
+
+[at-loader] Checking started in a separate process...
+
+[at-loader] Ok, 0.005 sec.
+⚠ ｢wdm｣: Hash: [1mcc2b05906327022d2fcd[39m[22m
+Version: webpack [1m4.12.0[39m[22m
+Time: [1m1702[39m[22mms
+Built at: 2018-07-25 [1m13:34:35[39m[22m
+                               [1mAsset[39m[22m       [1mSize[39m[22m       [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+[1m[32m7056c23d7e1424eb8cda.hot-update.json[39m[22m   44 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+[1m[32m9a58587dfe92e4ad3fb6.hot-update.json[39m[22m   44 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+               [1m[32mapplication.bundle.js[39m[22m   8.12 MiB  [1mapplication[39m[22m  [1m[32m[emitted][39m[22m  application
+                 [1m[32mpolyfills.bundle.js[39m[22m   1.46 MiB    [1mpolyfills[39m[22m  [1m[32m[emitted][39m[22m  polyfills
+                 [1m[32mresources.bundle.js[39m[22m   1.98 MiB    [1mresources[39m[22m  [1m[32m[emitted][39m[22m  resources
+[1m[32m7e937d7d409238559e79.hot-update.json[39m[22m   35 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+                          [1m[32mindex.html[39m[22m  383 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+ + 9 hidden assets
+Entrypoint [1mpolyfills[39m[22m = [1m[32mpolyfills.bundle.js[39m[22m
+Entrypoint [1mresources[39m[22m = [1m[32mresources.css[39m[22m [1m[32mresources.bundle.js[39m[22m
+Entrypoint [1mapplication[39m[22m = [1m[32mapplication.bundle.js[39m[22m
+[./.. lazy recursive] [1m.. lazy namespace object[39m[22m 160 bytes {[1m[33mapplication[39m[22m} {[1m[33mresources[39m[22m}[1m[32m [built][39m[22m
+    + 845 hidden modules
+
+[1m[33mWARNING in ../node_modules/@angular/core/bundles/core.umd.min.js 225:696-712
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../node_modules/@clr/icons/clr-icons.min.css ../node_modules/@clr/icons/clr-icons.min.js ../resources/styles/node-modules/@clr/ui/clr-ui.scss ../resources/styles/global.scss ../resources/styles/node-modules/leaflet/dist/leaflet.scss ../resources/styles/node-modules/leaflet-draw/dist/leaflet.draw.scss ../node_modules/@angular/core/bundles/core.umd.min.js[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/bundles/core.umd.min.js 225:967-1045
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../node_modules/@clr/icons/clr-icons.min.css ../node_modules/@clr/icons/clr-icons.min.js ../resources/styles/node-modules/@clr/ui/clr-ui.scss ../resources/styles/global.scss ../resources/styles/node-modules/leaflet/dist/leaflet.scss ../resources/styles/node-modules/leaflet-draw/dist/leaflet.draw.scss ../node_modules/@angular/core/bundles/core.umd.min.js[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/fesm5/core.js 4826:15-36
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ ../controller/index.ts 4:13-37
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../controller/index.ts[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/fesm5/core.js 4838:15-102
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ ../controller/index.ts 4:13-37
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../controller/index.ts[39m[22m
+Child [1mfavicons-webpack-plugin for "iconstats-[hash].json"[39m[22m:
+                                   [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32m7056c23d7e1424eb8cda.hot-update.json[39m[22m  44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+     + 9 hidden assets
+    Entrypoint [1mundefined[39m[22m = [1m[32miconstats-9499931ebc7b2b0799fb.json[39m[22m
+       1 module
+Child [1mhtml-webpack-plugin for "index.html"[39m[22m:
+                                   [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32m9a58587dfe92e4ad3fb6.hot-update.json[39m[22m  44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+     + 1 hidden asset
+    Entrypoint [1mundefined[39m[22m = [1m[32mindex.html[39m[22m
+       4 modules
+ℹ ｢wdm｣: Compiled with warnings.
+ℹ ｢wdm｣: Compiling...
+
+[at-loader] Checking started in a separate process...
+
+[at-loader] Ok, 0.003 sec.
+⚠ ｢wdm｣: Hash: [1m07f28e7b37c4a3719237[39m[22m
+Version: webpack [1m4.12.0[39m[22m
+Time: [1m1788[39m[22mms
+Built at: 2018-07-25 [1m13:34:38[39m[22m
+                               [1mAsset[39m[22m       [1mSize[39m[22m       [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+[1m[32m9499931ebc7b2b0799fb.hot-update.json[39m[22m   44 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+[1m[32m57b0734bac0106490972.hot-update.json[39m[22m   44 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+               [1m[32mapplication.bundle.js[39m[22m   8.12 MiB  [1mapplication[39m[22m  [1m[32m[emitted][39m[22m  application
+                 [1m[32mpolyfills.bundle.js[39m[22m   1.46 MiB    [1mpolyfills[39m[22m  [1m[32m[emitted][39m[22m  polyfills
+                 [1m[32mresources.bundle.js[39m[22m   1.98 MiB    [1mresources[39m[22m  [1m[32m[emitted][39m[22m  resources
+[1m[32mcc2b05906327022d2fcd.hot-update.json[39m[22m   35 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+                          [1m[32mindex.html[39m[22m  383 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+ + 9 hidden assets
+Entrypoint [1mpolyfills[39m[22m = [1m[32mpolyfills.bundle.js[39m[22m
+Entrypoint [1mresources[39m[22m = [1m[32mresources.css[39m[22m [1m[32mresources.bundle.js[39m[22m
+Entrypoint [1mapplication[39m[22m = [1m[32mapplication.bundle.js[39m[22m
+[./.. lazy recursive] [1m.. lazy namespace object[39m[22m 160 bytes {[1m[33mapplication[39m[22m} {[1m[33mresources[39m[22m}[1m[32m [built][39m[22m
+    + 845 hidden modules
+
+[1m[33mWARNING in ../node_modules/@angular/core/bundles/core.umd.min.js 225:696-712
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../node_modules/@clr/icons/clr-icons.min.css ../node_modules/@clr/icons/clr-icons.min.js ../resources/styles/node-modules/@clr/ui/clr-ui.scss ../resources/styles/global.scss ../resources/styles/node-modules/leaflet/dist/leaflet.scss ../resources/styles/node-modules/leaflet-draw/dist/leaflet.draw.scss ../node_modules/@angular/core/bundles/core.umd.min.js[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/bundles/core.umd.min.js 225:967-1045
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../node_modules/@clr/icons/clr-icons.min.css ../node_modules/@clr/icons/clr-icons.min.js ../resources/styles/node-modules/@clr/ui/clr-ui.scss ../resources/styles/global.scss ../resources/styles/node-modules/leaflet/dist/leaflet.scss ../resources/styles/node-modules/leaflet-draw/dist/leaflet.draw.scss ../node_modules/@angular/core/bundles/core.umd.min.js[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/fesm5/core.js 4826:15-36
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ ../controller/index.ts 4:13-37
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../controller/index.ts[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/fesm5/core.js 4838:15-102
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ ../controller/index.ts 4:13-37
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../controller/index.ts[39m[22m
+Child [1mfavicons-webpack-plugin for "iconstats-[hash].json"[39m[22m:
+                                   [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32m9499931ebc7b2b0799fb.hot-update.json[39m[22m  44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+     + 9 hidden assets
+    Entrypoint [1mundefined[39m[22m = [1m[32miconstats-31f5f8976c465dc1aa86.json[39m[22m
+       1 module
+Child [1mhtml-webpack-plugin for "index.html"[39m[22m:
+                                   [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32m57b0734bac0106490972.hot-update.json[39m[22m  44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+     + 1 hidden asset
+    Entrypoint [1mundefined[39m[22m = [1m[32mindex.html[39m[22m
+       4 modules
+ℹ ｢wdm｣: Compiled with warnings.
+ℹ ｢wdm｣: Compiling...
+
+[at-loader] Checking started in a separate process...
+
+[at-loader] Ok, 0.005 sec.
+⚠ ｢wdm｣: Hash: [1ma69720d3b91a83046298[39m[22m
+Version: webpack [1m4.12.0[39m[22m
+Time: [1m1828[39m[22mms
+Built at: 2018-07-25 [1m13:34:42[39m[22m
+                               [1mAsset[39m[22m       [1mSize[39m[22m       [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+[1m[32m31f5f8976c465dc1aa86.hot-update.json[39m[22m   44 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+[1m[32m6c31811b9211645ffc87.hot-update.json[39m[22m   44 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+               [1m[32mapplication.bundle.js[39m[22m   8.12 MiB  [1mapplication[39m[22m  [1m[32m[emitted][39m[22m  application
+                 [1m[32mpolyfills.bundle.js[39m[22m   1.46 MiB    [1mpolyfills[39m[22m  [1m[32m[emitted][39m[22m  polyfills
+                 [1m[32mresources.bundle.js[39m[22m   1.98 MiB    [1mresources[39m[22m  [1m[32m[emitted][39m[22m  resources
+[1m[32m07f28e7b37c4a3719237.hot-update.json[39m[22m   35 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+                          [1m[32mindex.html[39m[22m  383 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+ + 9 hidden assets
+Entrypoint [1mpolyfills[39m[22m = [1m[32mpolyfills.bundle.js[39m[22m
+Entrypoint [1mresources[39m[22m = [1m[32mresources.css[39m[22m [1m[32mresources.bundle.js[39m[22m
+Entrypoint [1mapplication[39m[22m = [1m[32mapplication.bundle.js[39m[22m
+[./.. lazy recursive] [1m.. lazy namespace object[39m[22m 160 bytes {[1m[33mapplication[39m[22m} {[1m[33mresources[39m[22m}[1m[32m [built][39m[22m
+    + 845 hidden modules
+
+[1m[33mWARNING in ../node_modules/@angular/core/bundles/core.umd.min.js 225:696-712
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../node_modules/@clr/icons/clr-icons.min.css ../node_modules/@clr/icons/clr-icons.min.js ../resources/styles/node-modules/@clr/ui/clr-ui.scss ../resources/styles/global.scss ../resources/styles/node-modules/leaflet/dist/leaflet.scss ../resources/styles/node-modules/leaflet-draw/dist/leaflet.draw.scss ../node_modules/@angular/core/bundles/core.umd.min.js[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/bundles/core.umd.min.js 225:967-1045
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../node_modules/@clr/icons/clr-icons.min.css ../node_modules/@clr/icons/clr-icons.min.js ../resources/styles/node-modules/@clr/ui/clr-ui.scss ../resources/styles/global.scss ../resources/styles/node-modules/leaflet/dist/leaflet.scss ../resources/styles/node-modules/leaflet-draw/dist/leaflet.draw.scss ../node_modules/@angular/core/bundles/core.umd.min.js[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/fesm5/core.js 4826:15-36
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ ../controller/index.ts 4:13-37
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../controller/index.ts[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/fesm5/core.js 4838:15-102
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ ../controller/index.ts 4:13-37
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../controller/index.ts[39m[22m
+Child [1mfavicons-webpack-plugin for "iconstats-[hash].json"[39m[22m:
+                                   [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32m31f5f8976c465dc1aa86.hot-update.json[39m[22m  44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+     + 9 hidden assets
+    Entrypoint [1mundefined[39m[22m = [1m[32miconstats-3bfc5b02988feb61b730.json[39m[22m
+       1 module
+Child [1mhtml-webpack-plugin for "index.html"[39m[22m:
+                                   [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32m6c31811b9211645ffc87.hot-update.json[39m[22m  44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+     + 1 hidden asset
+    Entrypoint [1mundefined[39m[22m = [1m[32mindex.html[39m[22m
+       4 modules
+ℹ ｢wdm｣: Compiled with warnings.
+ℹ ｢wdm｣: Compiling...
+
+[at-loader] Checking started in a separate process...
+
+[at-loader] Ok, 0.003 sec.
+⚠ ｢wdm｣: Hash: [1mf6dbc1323c9bc23defad[39m[22m
+Version: webpack [1m4.12.0[39m[22m
+Time: [1m1405[39m[22mms
+Built at: 2018-07-25 [1m13:34:45[39m[22m
+                               [1mAsset[39m[22m       [1mSize[39m[22m       [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+[1m[32m3bfc5b02988feb61b730.hot-update.json[39m[22m   44 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+[1m[32me79adbddfcb0d6c9d25a.hot-update.json[39m[22m   44 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+               [1m[32mapplication.bundle.js[39m[22m   8.12 MiB  [1mapplication[39m[22m  [1m[32m[emitted][39m[22m  application
+                 [1m[32mpolyfills.bundle.js[39m[22m   1.46 MiB    [1mpolyfills[39m[22m  [1m[32m[emitted][39m[22m  polyfills
+                 [1m[32mresources.bundle.js[39m[22m   1.98 MiB    [1mresources[39m[22m  [1m[32m[emitted][39m[22m  resources
+[1m[32ma69720d3b91a83046298.hot-update.json[39m[22m   35 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+                          [1m[32mindex.html[39m[22m  383 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+ + 9 hidden assets
+Entrypoint [1mpolyfills[39m[22m = [1m[32mpolyfills.bundle.js[39m[22m
+Entrypoint [1mresources[39m[22m = [1m[32mresources.css[39m[22m [1m[32mresources.bundle.js[39m[22m
+Entrypoint [1mapplication[39m[22m = [1m[32mapplication.bundle.js[39m[22m
+[./.. lazy recursive] [1m.. lazy namespace object[39m[22m 160 bytes {[1m[33mapplication[39m[22m} {[1m[33mresources[39m[22m}[1m[32m [built][39m[22m
+    + 845 hidden modules
+
+[1m[33mWARNING in ../node_modules/@angular/core/bundles/core.umd.min.js 225:696-712
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../node_modules/@clr/icons/clr-icons.min.css ../node_modules/@clr/icons/clr-icons.min.js ../resources/styles/node-modules/@clr/ui/clr-ui.scss ../resources/styles/global.scss ../resources/styles/node-modules/leaflet/dist/leaflet.scss ../resources/styles/node-modules/leaflet-draw/dist/leaflet.draw.scss ../node_modules/@angular/core/bundles/core.umd.min.js[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/bundles/core.umd.min.js 225:967-1045
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../node_modules/@clr/icons/clr-icons.min.css ../node_modules/@clr/icons/clr-icons.min.js ../resources/styles/node-modules/@clr/ui/clr-ui.scss ../resources/styles/global.scss ../resources/styles/node-modules/leaflet/dist/leaflet.scss ../resources/styles/node-modules/leaflet-draw/dist/leaflet.draw.scss ../node_modules/@angular/core/bundles/core.umd.min.js[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/fesm5/core.js 4826:15-36
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ ../controller/index.ts 4:13-37
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../controller/index.ts[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/fesm5/core.js 4838:15-102
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ ../controller/index.ts 4:13-37
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../controller/index.ts[39m[22m
+Child [1mfavicons-webpack-plugin for "iconstats-[hash].json"[39m[22m:
+                                   [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32m3bfc5b02988feb61b730.hot-update.json[39m[22m  44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+     + 9 hidden assets
+    Entrypoint [1mundefined[39m[22m = [1m[32miconstats-f91dab698d54f0ada150.json[39m[22m
+       1 module
+Child [1mhtml-webpack-plugin for "index.html"[39m[22m:
+                                   [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32me79adbddfcb0d6c9d25a.hot-update.json[39m[22m  44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+     + 1 hidden asset
+    Entrypoint [1mundefined[39m[22m = [1m[32mindex.html[39m[22m
+       4 modules
+ℹ ｢wdm｣: Compiled with warnings.
+ℹ ｢wdm｣: Compiling...
+
+[at-loader] Checking started in a separate process...
+
+[at-loader] Ok, 0.003 sec.
+⚠ ｢wdm｣: Hash: [1m6dd0bb24c83e405d1ceb[39m[22m
+Version: webpack [1m4.12.0[39m[22m
+Time: [1m1304[39m[22mms
+Built at: 2018-07-25 [1m13:34:48[39m[22m
+                               [1mAsset[39m[22m       [1mSize[39m[22m       [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+[1m[32mf91dab698d54f0ada150.hot-update.json[39m[22m   44 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+[1m[32m3184b7e024b4367ba383.hot-update.json[39m[22m   44 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+               [1m[32mapplication.bundle.js[39m[22m   8.12 MiB  [1mapplication[39m[22m  [1m[32m[emitted][39m[22m  application
+                 [1m[32mpolyfills.bundle.js[39m[22m   1.46 MiB    [1mpolyfills[39m[22m  [1m[32m[emitted][39m[22m  polyfills
+                 [1m[32mresources.bundle.js[39m[22m   1.98 MiB    [1mresources[39m[22m  [1m[32m[emitted][39m[22m  resources
+[1m[32mf6dbc1323c9bc23defad.hot-update.json[39m[22m   35 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+                          [1m[32mindex.html[39m[22m  383 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+ + 9 hidden assets
+Entrypoint [1mpolyfills[39m[22m = [1m[32mpolyfills.bundle.js[39m[22m
+Entrypoint [1mresources[39m[22m = [1m[32mresources.css[39m[22m [1m[32mresources.bundle.js[39m[22m
+Entrypoint [1mapplication[39m[22m = [1m[32mapplication.bundle.js[39m[22m
+[./.. lazy recursive] [1m.. lazy namespace object[39m[22m 160 bytes {[1m[33mapplication[39m[22m} {[1m[33mresources[39m[22m}[1m[32m [built][39m[22m
+    + 845 hidden modules
+
+[1m[33mWARNING in ../node_modules/@angular/core/bundles/core.umd.min.js 225:696-712
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../node_modules/@clr/icons/clr-icons.min.css ../node_modules/@clr/icons/clr-icons.min.js ../resources/styles/node-modules/@clr/ui/clr-ui.scss ../resources/styles/global.scss ../resources/styles/node-modules/leaflet/dist/leaflet.scss ../resources/styles/node-modules/leaflet-draw/dist/leaflet.draw.scss ../node_modules/@angular/core/bundles/core.umd.min.js[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/bundles/core.umd.min.js 225:967-1045
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../node_modules/@clr/icons/clr-icons.min.css ../node_modules/@clr/icons/clr-icons.min.js ../resources/styles/node-modules/@clr/ui/clr-ui.scss ../resources/styles/global.scss ../resources/styles/node-modules/leaflet/dist/leaflet.scss ../resources/styles/node-modules/leaflet-draw/dist/leaflet.draw.scss ../node_modules/@angular/core/bundles/core.umd.min.js[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/fesm5/core.js 4826:15-36
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ ../controller/index.ts 4:13-37
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../controller/index.ts[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/fesm5/core.js 4838:15-102
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ ../controller/index.ts 4:13-37
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../controller/index.ts[39m[22m
+Child [1mfavicons-webpack-plugin for "iconstats-[hash].json"[39m[22m:
+                                   [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32mf91dab698d54f0ada150.hot-update.json[39m[22m  44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+     + 9 hidden assets
+    Entrypoint [1mundefined[39m[22m = [1m[32miconstats-8edf0e7de373be6af03b.json[39m[22m
+       1 module
+Child [1mhtml-webpack-plugin for "index.html"[39m[22m:
+                                   [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32m3184b7e024b4367ba383.hot-update.json[39m[22m  44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+     + 1 hidden asset
+    Entrypoint [1mundefined[39m[22m = [1m[32mindex.html[39m[22m
+       4 modules
+ℹ ｢wdm｣: Compiled with warnings.
+ℹ ｢wdm｣: Compiling...
+
+[at-loader] Checking started in a separate process...
+
+[at-loader] Ok, 0.003 sec.
+⚠ ｢wdm｣: Hash: [1m0effe5b03ed82d987aae[39m[22m
+Version: webpack [1m4.12.0[39m[22m
+Time: [1m1774[39m[22mms
+Built at: 2018-07-25 [1m13:34:51[39m[22m
+                               [1mAsset[39m[22m       [1mSize[39m[22m       [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+[1m[32m8edf0e7de373be6af03b.hot-update.json[39m[22m   44 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+[1m[32mba1454f9e9b36de0d781.hot-update.json[39m[22m   44 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+               [1m[32mapplication.bundle.js[39m[22m   8.12 MiB  [1mapplication[39m[22m  [1m[32m[emitted][39m[22m  application
+                 [1m[32mpolyfills.bundle.js[39m[22m   1.46 MiB    [1mpolyfills[39m[22m  [1m[32m[emitted][39m[22m  polyfills
+                 [1m[32mresources.bundle.js[39m[22m   1.98 MiB    [1mresources[39m[22m  [1m[32m[emitted][39m[22m  resources
+[1m[32m6dd0bb24c83e405d1ceb.hot-update.json[39m[22m   35 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+                          [1m[32mindex.html[39m[22m  383 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+ + 9 hidden assets
+Entrypoint [1mpolyfills[39m[22m = [1m[32mpolyfills.bundle.js[39m[22m
+Entrypoint [1mresources[39m[22m = [1m[32mresources.css[39m[22m [1m[32mresources.bundle.js[39m[22m
+Entrypoint [1mapplication[39m[22m = [1m[32mapplication.bundle.js[39m[22m
+[./.. lazy recursive] [1m.. lazy namespace object[39m[22m 160 bytes {[1m[33mapplication[39m[22m} {[1m[33mresources[39m[22m}[1m[32m [built][39m[22m
+    + 845 hidden modules
+
+[1m[33mWARNING in ../node_modules/@angular/core/bundles/core.umd.min.js 225:696-712
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../node_modules/@clr/icons/clr-icons.min.css ../node_modules/@clr/icons/clr-icons.min.js ../resources/styles/node-modules/@clr/ui/clr-ui.scss ../resources/styles/global.scss ../resources/styles/node-modules/leaflet/dist/leaflet.scss ../resources/styles/node-modules/leaflet-draw/dist/leaflet.draw.scss ../node_modules/@angular/core/bundles/core.umd.min.js[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/bundles/core.umd.min.js 225:967-1045
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../node_modules/@clr/icons/clr-icons.min.css ../node_modules/@clr/icons/clr-icons.min.js ../resources/styles/node-modules/@clr/ui/clr-ui.scss ../resources/styles/global.scss ../resources/styles/node-modules/leaflet/dist/leaflet.scss ../resources/styles/node-modules/leaflet-draw/dist/leaflet.draw.scss ../node_modules/@angular/core/bundles/core.umd.min.js[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/fesm5/core.js 4826:15-36
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ ../controller/index.ts 4:13-37
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../controller/index.ts[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/fesm5/core.js 4838:15-102
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ ../controller/index.ts 4:13-37
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../controller/index.ts[39m[22m
+Child [1mfavicons-webpack-plugin for "iconstats-[hash].json"[39m[22m:
+                                   [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32m8edf0e7de373be6af03b.hot-update.json[39m[22m  44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+     + 9 hidden assets
+    Entrypoint [1mundefined[39m[22m = [1m[32miconstats-6239bd5370507ba9cb54.json[39m[22m
+       1 module
+Child [1mhtml-webpack-plugin for "index.html"[39m[22m:
+                                   [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32mba1454f9e9b36de0d781.hot-update.json[39m[22m  44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+     + 1 hidden asset
+    Entrypoint [1mundefined[39m[22m = [1m[32mindex.html[39m[22m
+       4 modules
+ℹ ｢wdm｣: Compiled with warnings.
+ℹ ｢wdm｣: Compiling...
+
+[at-loader] Checking started in a separate process...
+
+[at-loader] Ok, 0.003 sec.
+⚠ ｢wdm｣: Hash: [1m8d4b610ad212446ba32f[39m[22m
+Version: webpack [1m4.12.0[39m[22m
+Time: [1m1279[39m[22mms
+Built at: 2018-07-25 [1m13:34:54[39m[22m
+                               [1mAsset[39m[22m       [1mSize[39m[22m       [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+[1m[32m6239bd5370507ba9cb54.hot-update.json[39m[22m   44 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+[1m[32mdd9a26e31d1f7fcaa26d.hot-update.json[39m[22m   44 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+               [1m[32mapplication.bundle.js[39m[22m   8.12 MiB  [1mapplication[39m[22m  [1m[32m[emitted][39m[22m  application
+                 [1m[32mpolyfills.bundle.js[39m[22m   1.46 MiB    [1mpolyfills[39m[22m  [1m[32m[emitted][39m[22m  polyfills
+                 [1m[32mresources.bundle.js[39m[22m   1.98 MiB    [1mresources[39m[22m  [1m[32m[emitted][39m[22m  resources
+[1m[32m0effe5b03ed82d987aae.hot-update.json[39m[22m   35 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+                          [1m[32mindex.html[39m[22m  383 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+ + 9 hidden assets
+Entrypoint [1mpolyfills[39m[22m = [1m[32mpolyfills.bundle.js[39m[22m
+Entrypoint [1mresources[39m[22m = [1m[32mresources.css[39m[22m [1m[32mresources.bundle.js[39m[22m
+Entrypoint [1mapplication[39m[22m = [1m[32mapplication.bundle.js[39m[22m
+[./.. lazy recursive] [1m.. lazy namespace object[39m[22m 160 bytes {[1m[33mapplication[39m[22m} {[1m[33mresources[39m[22m}[1m[32m [built][39m[22m
+    + 845 hidden modules
+
+[1m[33mWARNING in ../node_modules/@angular/core/bundles/core.umd.min.js 225:696-712
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../node_modules/@clr/icons/clr-icons.min.css ../node_modules/@clr/icons/clr-icons.min.js ../resources/styles/node-modules/@clr/ui/clr-ui.scss ../resources/styles/global.scss ../resources/styles/node-modules/leaflet/dist/leaflet.scss ../resources/styles/node-modules/leaflet-draw/dist/leaflet.draw.scss ../node_modules/@angular/core/bundles/core.umd.min.js[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/bundles/core.umd.min.js 225:967-1045
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../node_modules/@clr/icons/clr-icons.min.css ../node_modules/@clr/icons/clr-icons.min.js ../resources/styles/node-modules/@clr/ui/clr-ui.scss ../resources/styles/global.scss ../resources/styles/node-modules/leaflet/dist/leaflet.scss ../resources/styles/node-modules/leaflet-draw/dist/leaflet.draw.scss ../node_modules/@angular/core/bundles/core.umd.min.js[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/fesm5/core.js 4826:15-36
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ ../controller/index.ts 4:13-37
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../controller/index.ts[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/fesm5/core.js 4838:15-102
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ ../controller/index.ts 4:13-37
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../controller/index.ts[39m[22m
+Child [1mfavicons-webpack-plugin for "iconstats-[hash].json"[39m[22m:
+                                   [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32m6239bd5370507ba9cb54.hot-update.json[39m[22m  44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+     + 9 hidden assets
+    Entrypoint [1mundefined[39m[22m = [1m[32miconstats-c85b61fb358c4fd394e7.json[39m[22m
+       1 module
+Child [1mhtml-webpack-plugin for "index.html"[39m[22m:
+                                   [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32mdd9a26e31d1f7fcaa26d.hot-update.json[39m[22m  44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+     + 1 hidden asset
+    Entrypoint [1mundefined[39m[22m = [1m[32mindex.html[39m[22m
+       4 modules
+ℹ ｢wdm｣: Compiled with warnings.
+ℹ ｢wdm｣: Compiling...
+
+[at-loader] Checking started in a separate process...
+
+[at-loader] Ok, 0.003 sec.
+⚠ ｢wdm｣: Hash: [1m2982195e8a9e729d4ef4[39m[22m
+Version: webpack [1m4.12.0[39m[22m
+Time: [1m1756[39m[22mms
+Built at: 2018-07-25 [1m13:34:57[39m[22m
+                               [1mAsset[39m[22m       [1mSize[39m[22m       [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+[1m[32mc85b61fb358c4fd394e7.hot-update.json[39m[22m   44 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+[1m[32m4d73d9d7e1c72eb2e289.hot-update.json[39m[22m   44 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+               [1m[32mapplication.bundle.js[39m[22m   8.12 MiB  [1mapplication[39m[22m  [1m[32m[emitted][39m[22m  application
+                 [1m[32mpolyfills.bundle.js[39m[22m   1.46 MiB    [1mpolyfills[39m[22m  [1m[32m[emitted][39m[22m  polyfills
+                 [1m[32mresources.bundle.js[39m[22m   1.98 MiB    [1mresources[39m[22m  [1m[32m[emitted][39m[22m  resources
+[1m[32m8d4b610ad212446ba32f.hot-update.json[39m[22m   35 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+                          [1m[32mindex.html[39m[22m  383 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+ + 9 hidden assets
+Entrypoint [1mpolyfills[39m[22m = [1m[32mpolyfills.bundle.js[39m[22m
+Entrypoint [1mresources[39m[22m = [1m[32mresources.css[39m[22m [1m[32mresources.bundle.js[39m[22m
+Entrypoint [1mapplication[39m[22m = [1m[32mapplication.bundle.js[39m[22m
+[./.. lazy recursive] [1m.. lazy namespace object[39m[22m 160 bytes {[1m[33mapplication[39m[22m} {[1m[33mresources[39m[22m}[1m[32m [built][39m[22m
+    + 845 hidden modules
+
+[1m[33mWARNING in ../node_modules/@angular/core/bundles/core.umd.min.js 225:696-712
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../node_modules/@clr/icons/clr-icons.min.css ../node_modules/@clr/icons/clr-icons.min.js ../resources/styles/node-modules/@clr/ui/clr-ui.scss ../resources/styles/global.scss ../resources/styles/node-modules/leaflet/dist/leaflet.scss ../resources/styles/node-modules/leaflet-draw/dist/leaflet.draw.scss ../node_modules/@angular/core/bundles/core.umd.min.js[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/bundles/core.umd.min.js 225:967-1045
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../node_modules/@clr/icons/clr-icons.min.css ../node_modules/@clr/icons/clr-icons.min.js ../resources/styles/node-modules/@clr/ui/clr-ui.scss ../resources/styles/global.scss ../resources/styles/node-modules/leaflet/dist/leaflet.scss ../resources/styles/node-modules/leaflet-draw/dist/leaflet.draw.scss ../node_modules/@angular/core/bundles/core.umd.min.js[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/fesm5/core.js 4826:15-36
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ ../controller/index.ts 4:13-37
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../controller/index.ts[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/fesm5/core.js 4838:15-102
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ ../controller/index.ts 4:13-37
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../controller/index.ts[39m[22m
+Child [1mfavicons-webpack-plugin for "iconstats-[hash].json"[39m[22m:
+                                   [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32mc85b61fb358c4fd394e7.hot-update.json[39m[22m  44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+     + 9 hidden assets
+    Entrypoint [1mundefined[39m[22m = [1m[32miconstats-90badf1f44f83dd38fa7.json[39m[22m
+       1 module
+Child [1mhtml-webpack-plugin for "index.html"[39m[22m:
+                                   [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32m4d73d9d7e1c72eb2e289.hot-update.json[39m[22m  44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+     + 1 hidden asset
+    Entrypoint [1mundefined[39m[22m = [1m[32mindex.html[39m[22m
+       4 modules
+ℹ ｢wdm｣: Compiled with warnings.
+ℹ ｢wdm｣: Compiling...
+
+[at-loader] Checking started in a separate process...
+
+[at-loader] Ok, 0.003 sec.
+⚠ ｢wdm｣: Hash: [1ma876cc3a006558dd66d4[39m[22m
+Version: webpack [1m4.12.0[39m[22m
+Time: [1m1293[39m[22mms
+Built at: 2018-07-25 [1m13:34:59[39m[22m
+                               [1mAsset[39m[22m       [1mSize[39m[22m       [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+[1m[32m90badf1f44f83dd38fa7.hot-update.json[39m[22m   44 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+[1m[32mb30506aa5dfd2065d7e1.hot-update.json[39m[22m   44 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+               [1m[32mapplication.bundle.js[39m[22m   8.12 MiB  [1mapplication[39m[22m  [1m[32m[emitted][39m[22m  application
+                 [1m[32mpolyfills.bundle.js[39m[22m   1.46 MiB    [1mpolyfills[39m[22m  [1m[32m[emitted][39m[22m  polyfills
+                 [1m[32mresources.bundle.js[39m[22m   1.98 MiB    [1mresources[39m[22m  [1m[32m[emitted][39m[22m  resources
+[1m[32m2982195e8a9e729d4ef4.hot-update.json[39m[22m   35 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+                          [1m[32mindex.html[39m[22m  383 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+ + 9 hidden assets
+Entrypoint [1mpolyfills[39m[22m = [1m[32mpolyfills.bundle.js[39m[22m
+Entrypoint [1mresources[39m[22m = [1m[32mresources.css[39m[22m [1m[32mresources.bundle.js[39m[22m
+Entrypoint [1mapplication[39m[22m = [1m[32mapplication.bundle.js[39m[22m
+[./.. lazy recursive] [1m.. lazy namespace object[39m[22m 160 bytes {[1m[33mapplication[39m[22m} {[1m[33mresources[39m[22m}[1m[32m [built][39m[22m
+    + 845 hidden modules
+
+[1m[33mWARNING in ../node_modules/@angular/core/bundles/core.umd.min.js 225:696-712
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../node_modules/@clr/icons/clr-icons.min.css ../node_modules/@clr/icons/clr-icons.min.js ../resources/styles/node-modules/@clr/ui/clr-ui.scss ../resources/styles/global.scss ../resources/styles/node-modules/leaflet/dist/leaflet.scss ../resources/styles/node-modules/leaflet-draw/dist/leaflet.draw.scss ../node_modules/@angular/core/bundles/core.umd.min.js[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/bundles/core.umd.min.js 225:967-1045
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../node_modules/@clr/icons/clr-icons.min.css ../node_modules/@clr/icons/clr-icons.min.js ../resources/styles/node-modules/@clr/ui/clr-ui.scss ../resources/styles/global.scss ../resources/styles/node-modules/leaflet/dist/leaflet.scss ../resources/styles/node-modules/leaflet-draw/dist/leaflet.draw.scss ../node_modules/@angular/core/bundles/core.umd.min.js[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/fesm5/core.js 4826:15-36
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ ../controller/index.ts 4:13-37
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../controller/index.ts[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/fesm5/core.js 4838:15-102
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ ../controller/index.ts 4:13-37
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../controller/index.ts[39m[22m
+Child [1mfavicons-webpack-plugin for "iconstats-[hash].json"[39m[22m:
+                                   [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32m90badf1f44f83dd38fa7.hot-update.json[39m[22m  44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+     + 9 hidden assets
+    Entrypoint [1mundefined[39m[22m = [1m[32miconstats-2a31e22d19ced058302c.json[39m[22m
+       1 module
+Child [1mhtml-webpack-plugin for "index.html"[39m[22m:
+                                   [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32mb30506aa5dfd2065d7e1.hot-update.json[39m[22m  44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+     + 1 hidden asset
+    Entrypoint [1mundefined[39m[22m = [1m[32mindex.html[39m[22m
+       4 modules
+ℹ ｢wdm｣: Compiled with warnings.
+ℹ ｢wdm｣: Compiling...
+
+[at-loader] Checking started in a separate process...
+
+[at-loader] Ok, 0.003 sec.
+⚠ ｢wdm｣: Hash: [1m0746fd56952ce2949d02[39m[22m
+Version: webpack [1m4.12.0[39m[22m
+Time: [1m1775[39m[22mms
+Built at: 2018-07-25 [1m13:35:02[39m[22m
+                               [1mAsset[39m[22m       [1mSize[39m[22m       [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+[1m[32m2a31e22d19ced058302c.hot-update.json[39m[22m   44 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+[1m[32mfc5359c6f1e37326ce66.hot-update.json[39m[22m   44 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+               [1m[32mapplication.bundle.js[39m[22m   8.12 MiB  [1mapplication[39m[22m  [1m[32m[emitted][39m[22m  application
+                 [1m[32mpolyfills.bundle.js[39m[22m   1.46 MiB    [1mpolyfills[39m[22m  [1m[32m[emitted][39m[22m  polyfills
+                 [1m[32mresources.bundle.js[39m[22m   1.98 MiB    [1mresources[39m[22m  [1m[32m[emitted][39m[22m  resources
+[1m[32ma876cc3a006558dd66d4.hot-update.json[39m[22m   35 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+                          [1m[32mindex.html[39m[22m  383 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+ + 9 hidden assets
+Entrypoint [1mpolyfills[39m[22m = [1m[32mpolyfills.bundle.js[39m[22m
+Entrypoint [1mresources[39m[22m = [1m[32mresources.css[39m[22m [1m[32mresources.bundle.js[39m[22m
+Entrypoint [1mapplication[39m[22m = [1m[32mapplication.bundle.js[39m[22m
+[./.. lazy recursive] [1m.. lazy namespace object[39m[22m 160 bytes {[1m[33mapplication[39m[22m} {[1m[33mresources[39m[22m}[1m[32m [built][39m[22m
+    + 845 hidden modules
+
+[1m[33mWARNING in ../node_modules/@angular/core/bundles/core.umd.min.js 225:696-712
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../node_modules/@clr/icons/clr-icons.min.css ../node_modules/@clr/icons/clr-icons.min.js ../resources/styles/node-modules/@clr/ui/clr-ui.scss ../resources/styles/global.scss ../resources/styles/node-modules/leaflet/dist/leaflet.scss ../resources/styles/node-modules/leaflet-draw/dist/leaflet.draw.scss ../node_modules/@angular/core/bundles/core.umd.min.js[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/bundles/core.umd.min.js 225:967-1045
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../node_modules/@clr/icons/clr-icons.min.css ../node_modules/@clr/icons/clr-icons.min.js ../resources/styles/node-modules/@clr/ui/clr-ui.scss ../resources/styles/global.scss ../resources/styles/node-modules/leaflet/dist/leaflet.scss ../resources/styles/node-modules/leaflet-draw/dist/leaflet.draw.scss ../node_modules/@angular/core/bundles/core.umd.min.js[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/fesm5/core.js 4826:15-36
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ ../controller/index.ts 4:13-37
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../controller/index.ts[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/fesm5/core.js 4838:15-102
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ ../controller/index.ts 4:13-37
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../controller/index.ts[39m[22m
+Child [1mfavicons-webpack-plugin for "iconstats-[hash].json"[39m[22m:
+                                   [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32m2a31e22d19ced058302c.hot-update.json[39m[22m  44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+     + 9 hidden assets
+    Entrypoint [1mundefined[39m[22m = [1m[32miconstats-82921104a1ac5e8a787b.json[39m[22m
+       1 module
+Child [1mhtml-webpack-plugin for "index.html"[39m[22m:
+                                   [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32mfc5359c6f1e37326ce66.hot-update.json[39m[22m  44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+     + 1 hidden asset
+    Entrypoint [1mundefined[39m[22m = [1m[32mindex.html[39m[22m
+       4 modules
+ℹ ｢wdm｣: Compiled with warnings.
+ℹ ｢wdm｣: Compiling...
+
+[at-loader] Checking started in a separate process...
+
+[at-loader] Ok, 0.004 sec.
+⚠ ｢wdm｣: Hash: [1m1c6cb366c99327296919[39m[22m
+Version: webpack [1m4.12.0[39m[22m
+Time: [1m1335[39m[22mms
+Built at: 2018-07-25 [1m13:35:05[39m[22m
+                               [1mAsset[39m[22m       [1mSize[39m[22m       [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+[1m[32m82921104a1ac5e8a787b.hot-update.json[39m[22m   44 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+[1m[32m7233ee7caeb0e1cfe21b.hot-update.json[39m[22m   44 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+               [1m[32mapplication.bundle.js[39m[22m   8.12 MiB  [1mapplication[39m[22m  [1m[32m[emitted][39m[22m  application
+                 [1m[32mpolyfills.bundle.js[39m[22m   1.46 MiB    [1mpolyfills[39m[22m  [1m[32m[emitted][39m[22m  polyfills
+                 [1m[32mresources.bundle.js[39m[22m   1.98 MiB    [1mresources[39m[22m  [1m[32m[emitted][39m[22m  resources
+[1m[32m0746fd56952ce2949d02.hot-update.json[39m[22m   35 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+                          [1m[32mindex.html[39m[22m  383 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+ + 9 hidden assets
+Entrypoint [1mpolyfills[39m[22m = [1m[32mpolyfills.bundle.js[39m[22m
+Entrypoint [1mresources[39m[22m = [1m[32mresources.css[39m[22m [1m[32mresources.bundle.js[39m[22m
+Entrypoint [1mapplication[39m[22m = [1m[32mapplication.bundle.js[39m[22m
+[./.. lazy recursive] [1m.. lazy namespace object[39m[22m 160 bytes {[1m[33mapplication[39m[22m} {[1m[33mresources[39m[22m}[1m[32m [built][39m[22m
+    + 845 hidden modules
+
+[1m[33mWARNING in ../node_modules/@angular/core/bundles/core.umd.min.js 225:696-712
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../node_modules/@clr/icons/clr-icons.min.css ../node_modules/@clr/icons/clr-icons.min.js ../resources/styles/node-modules/@clr/ui/clr-ui.scss ../resources/styles/global.scss ../resources/styles/node-modules/leaflet/dist/leaflet.scss ../resources/styles/node-modules/leaflet-draw/dist/leaflet.draw.scss ../node_modules/@angular/core/bundles/core.umd.min.js[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/bundles/core.umd.min.js 225:967-1045
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../node_modules/@clr/icons/clr-icons.min.css ../node_modules/@clr/icons/clr-icons.min.js ../resources/styles/node-modules/@clr/ui/clr-ui.scss ../resources/styles/global.scss ../resources/styles/node-modules/leaflet/dist/leaflet.scss ../resources/styles/node-modules/leaflet-draw/dist/leaflet.draw.scss ../node_modules/@angular/core/bundles/core.umd.min.js[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/fesm5/core.js 4826:15-36
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ ../controller/index.ts 4:13-37
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../controller/index.ts[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/fesm5/core.js 4838:15-102
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ ../controller/index.ts 4:13-37
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../controller/index.ts[39m[22m
+Child [1mfavicons-webpack-plugin for "iconstats-[hash].json"[39m[22m:
+                                   [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32m82921104a1ac5e8a787b.hot-update.json[39m[22m  44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+     + 9 hidden assets
+    Entrypoint [1mundefined[39m[22m = [1m[32miconstats-2002d49083a878c75f71.json[39m[22m
+       1 module
+Child [1mhtml-webpack-plugin for "index.html"[39m[22m:
+                                   [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32m7233ee7caeb0e1cfe21b.hot-update.json[39m[22m  44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+     + 1 hidden asset
+    Entrypoint [1mundefined[39m[22m = [1m[32mindex.html[39m[22m
+       4 modules
+ℹ ｢wdm｣: Compiled with warnings.
+ℹ ｢wdm｣: Compiling...
+
+[at-loader] Checking started in a separate process...
+
+[at-loader] Ok, 0.003 sec.
+⚠ ｢wdm｣: Hash: [1mbc67bfa50697148d7cd2[39m[22m
+Version: webpack [1m4.12.0[39m[22m
+Time: [1m1346[39m[22mms
+Built at: 2018-07-25 [1m13:35:08[39m[22m
+                               [1mAsset[39m[22m       [1mSize[39m[22m       [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+[1m[32m2002d49083a878c75f71.hot-update.json[39m[22m   44 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+[1m[32mb27ff014298873c5c632.hot-update.json[39m[22m   44 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+               [1m[32mapplication.bundle.js[39m[22m   8.12 MiB  [1mapplication[39m[22m  [1m[32m[emitted][39m[22m  application
+                 [1m[32mpolyfills.bundle.js[39m[22m   1.46 MiB    [1mpolyfills[39m[22m  [1m[32m[emitted][39m[22m  polyfills
+                 [1m[32mresources.bundle.js[39m[22m   1.98 MiB    [1mresources[39m[22m  [1m[32m[emitted][39m[22m  resources
+[1m[32m1c6cb366c99327296919.hot-update.json[39m[22m   35 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+                          [1m[32mindex.html[39m[22m  383 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+ + 9 hidden assets
+Entrypoint [1mpolyfills[39m[22m = [1m[32mpolyfills.bundle.js[39m[22m
+Entrypoint [1mresources[39m[22m = [1m[32mresources.css[39m[22m [1m[32mresources.bundle.js[39m[22m
+Entrypoint [1mapplication[39m[22m = [1m[32mapplication.bundle.js[39m[22m
+[./.. lazy recursive] [1m.. lazy namespace object[39m[22m 160 bytes {[1m[33mapplication[39m[22m} {[1m[33mresources[39m[22m}[1m[32m [built][39m[22m
+    + 845 hidden modules
+
+[1m[33mWARNING in ../node_modules/@angular/core/bundles/core.umd.min.js 225:696-712
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../node_modules/@clr/icons/clr-icons.min.css ../node_modules/@clr/icons/clr-icons.min.js ../resources/styles/node-modules/@clr/ui/clr-ui.scss ../resources/styles/global.scss ../resources/styles/node-modules/leaflet/dist/leaflet.scss ../resources/styles/node-modules/leaflet-draw/dist/leaflet.draw.scss ../node_modules/@angular/core/bundles/core.umd.min.js[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/bundles/core.umd.min.js 225:967-1045
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../node_modules/@clr/icons/clr-icons.min.css ../node_modules/@clr/icons/clr-icons.min.js ../resources/styles/node-modules/@clr/ui/clr-ui.scss ../resources/styles/global.scss ../resources/styles/node-modules/leaflet/dist/leaflet.scss ../resources/styles/node-modules/leaflet-draw/dist/leaflet.draw.scss ../node_modules/@angular/core/bundles/core.umd.min.js[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/fesm5/core.js 4826:15-36
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ ../controller/index.ts 4:13-37
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../controller/index.ts[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/fesm5/core.js 4838:15-102
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ ../controller/index.ts 4:13-37
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../controller/index.ts[39m[22m
+Child [1mfavicons-webpack-plugin for "iconstats-[hash].json"[39m[22m:
+                                   [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32m2002d49083a878c75f71.hot-update.json[39m[22m  44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+     + 9 hidden assets
+    Entrypoint [1mundefined[39m[22m = [1m[32miconstats-101f7fc04cfecacf4c9b.json[39m[22m
+       1 module
+Child [1mhtml-webpack-plugin for "index.html"[39m[22m:
+                                   [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32mb27ff014298873c5c632.hot-update.json[39m[22m  44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+     + 1 hidden asset
+    Entrypoint [1mundefined[39m[22m = [1m[32mindex.html[39m[22m
+       4 modules
+ℹ ｢wdm｣: Compiled with warnings.
+ℹ ｢wdm｣: Compiling...
+
+[at-loader] Checking started in a separate process...
+
+[at-loader] Ok, 0.003 sec.
+⚠ ｢wdm｣: Hash: [1mb4f157f32ed82540004e[39m[22m
+Version: webpack [1m4.12.0[39m[22m
+Time: [1m1736[39m[22mms
+Built at: 2018-07-25 [1m13:35:11[39m[22m
+                               [1mAsset[39m[22m       [1mSize[39m[22m       [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+[1m[32m101f7fc04cfecacf4c9b.hot-update.json[39m[22m   44 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+[1m[32m8b0f9eb4ccf5413db337.hot-update.json[39m[22m   44 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+               [1m[32mapplication.bundle.js[39m[22m   8.12 MiB  [1mapplication[39m[22m  [1m[32m[emitted][39m[22m  application
+                 [1m[32mpolyfills.bundle.js[39m[22m   1.46 MiB    [1mpolyfills[39m[22m  [1m[32m[emitted][39m[22m  polyfills
+                 [1m[32mresources.bundle.js[39m[22m   1.98 MiB    [1mresources[39m[22m  [1m[32m[emitted][39m[22m  resources
+[1m[32mbc67bfa50697148d7cd2.hot-update.json[39m[22m   35 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+                          [1m[32mindex.html[39m[22m  383 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+ + 9 hidden assets
+Entrypoint [1mpolyfills[39m[22m = [1m[32mpolyfills.bundle.js[39m[22m
+Entrypoint [1mresources[39m[22m = [1m[32mresources.css[39m[22m [1m[32mresources.bundle.js[39m[22m
+Entrypoint [1mapplication[39m[22m = [1m[32mapplication.bundle.js[39m[22m
+[./.. lazy recursive] [1m.. lazy namespace object[39m[22m 160 bytes {[1m[33mapplication[39m[22m} {[1m[33mresources[39m[22m}[1m[32m [built][39m[22m
+    + 845 hidden modules
+
+[1m[33mWARNING in ../node_modules/@angular/core/bundles/core.umd.min.js 225:696-712
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../node_modules/@clr/icons/clr-icons.min.css ../node_modules/@clr/icons/clr-icons.min.js ../resources/styles/node-modules/@clr/ui/clr-ui.scss ../resources/styles/global.scss ../resources/styles/node-modules/leaflet/dist/leaflet.scss ../resources/styles/node-modules/leaflet-draw/dist/leaflet.draw.scss ../node_modules/@angular/core/bundles/core.umd.min.js[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/bundles/core.umd.min.js 225:967-1045
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../node_modules/@clr/icons/clr-icons.min.css ../node_modules/@clr/icons/clr-icons.min.js ../resources/styles/node-modules/@clr/ui/clr-ui.scss ../resources/styles/global.scss ../resources/styles/node-modules/leaflet/dist/leaflet.scss ../resources/styles/node-modules/leaflet-draw/dist/leaflet.draw.scss ../node_modules/@angular/core/bundles/core.umd.min.js[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/fesm5/core.js 4826:15-36
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ ../controller/index.ts 4:13-37
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../controller/index.ts[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/fesm5/core.js 4838:15-102
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ ../controller/index.ts 4:13-37
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../controller/index.ts[39m[22m
+Child [1mfavicons-webpack-plugin for "iconstats-[hash].json"[39m[22m:
+                                   [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32m101f7fc04cfecacf4c9b.hot-update.json[39m[22m  44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+     + 9 hidden assets
+    Entrypoint [1mundefined[39m[22m = [1m[32miconstats-484811896b53ca2098e2.json[39m[22m
+       1 module
+Child [1mhtml-webpack-plugin for "index.html"[39m[22m:
+                                   [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32m8b0f9eb4ccf5413db337.hot-update.json[39m[22m  44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+     + 1 hidden asset
+    Entrypoint [1mundefined[39m[22m = [1m[32mindex.html[39m[22m
+       4 modules
+ℹ ｢wdm｣: Compiled with warnings.
+ℹ ｢wdm｣: Compiling...
+
+[at-loader] Checking started in a separate process...
+
+[at-loader] Ok, 0.003 sec.
+ℹ ｢wdm｣: wait until bundle finished: /favicon.ico
+⚠ ｢wdm｣: Hash: [1mf39cdeec8426218b61d5[39m[22m
+Version: webpack [1m4.12.0[39m[22m
+Time: [1m1404[39m[22mms
+Built at: 2018-07-25 [1m13:35:14[39m[22m
+                               [1mAsset[39m[22m       [1mSize[39m[22m       [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+[1m[32m484811896b53ca2098e2.hot-update.json[39m[22m   44 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+[1m[32med925626771ad27f74b1.hot-update.json[39m[22m   44 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+               [1m[32mapplication.bundle.js[39m[22m   8.12 MiB  [1mapplication[39m[22m  [1m[32m[emitted][39m[22m  application
+                 [1m[32mpolyfills.bundle.js[39m[22m   1.46 MiB    [1mpolyfills[39m[22m  [1m[32m[emitted][39m[22m  polyfills
+                 [1m[32mresources.bundle.js[39m[22m   1.98 MiB    [1mresources[39m[22m  [1m[32m[emitted][39m[22m  resources
+[1m[32mb4f157f32ed82540004e.hot-update.json[39m[22m   35 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+                          [1m[32mindex.html[39m[22m  383 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+ + 9 hidden assets
+Entrypoint [1mpolyfills[39m[22m = [1m[32mpolyfills.bundle.js[39m[22m
+Entrypoint [1mresources[39m[22m = [1m[32mresources.css[39m[22m [1m[32mresources.bundle.js[39m[22m
+Entrypoint [1mapplication[39m[22m = [1m[32mapplication.bundle.js[39m[22m
+[./.. lazy recursive] [1m.. lazy namespace object[39m[22m 160 bytes {[1m[33mapplication[39m[22m} {[1m[33mresources[39m[22m}[1m[32m [built][39m[22m
+    + 845 hidden modules
+
+[1m[33mWARNING in ../node_modules/@angular/core/bundles/core.umd.min.js 225:696-712
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../node_modules/@clr/icons/clr-icons.min.css ../node_modules/@clr/icons/clr-icons.min.js ../resources/styles/node-modules/@clr/ui/clr-ui.scss ../resources/styles/global.scss ../resources/styles/node-modules/leaflet/dist/leaflet.scss ../resources/styles/node-modules/leaflet-draw/dist/leaflet.draw.scss ../node_modules/@angular/core/bundles/core.umd.min.js[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/bundles/core.umd.min.js 225:967-1045
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../node_modules/@clr/icons/clr-icons.min.css ../node_modules/@clr/icons/clr-icons.min.js ../resources/styles/node-modules/@clr/ui/clr-ui.scss ../resources/styles/global.scss ../resources/styles/node-modules/leaflet/dist/leaflet.scss ../resources/styles/node-modules/leaflet-draw/dist/leaflet.draw.scss ../node_modules/@angular/core/bundles/core.umd.min.js[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/fesm5/core.js 4826:15-36
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ ../controller/index.ts 4:13-37
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../controller/index.ts[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/fesm5/core.js 4838:15-102
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ ../controller/index.ts 4:13-37
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../controller/index.ts[39m[22m
+Child [1mfavicons-webpack-plugin for "iconstats-[hash].json"[39m[22m:
+                                   [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32m484811896b53ca2098e2.hot-update.json[39m[22m  44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+     + 9 hidden assets
+    Entrypoint [1mundefined[39m[22m = [1m[32miconstats-fee4445c392386a7c9e6.json[39m[22m
+       1 module
+Child [1mhtml-webpack-plugin for "index.html"[39m[22m:
+                                   [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32med925626771ad27f74b1.hot-update.json[39m[22m  44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+     + 1 hidden asset
+    Entrypoint [1mundefined[39m[22m = [1m[32mindex.html[39m[22m
+       4 modules
+ℹ ｢wdm｣: Compiled with warnings.
+ℹ ｢wdm｣: Compiling...
+ℹ ｢wdm｣: wait until bundle finished: /favicon.ico
+
+[at-loader] Checking started in a separate process...
+
+[at-loader] Ok, 0.003 sec.
+⚠ ｢wdm｣: Hash: [1m3c0f07f988815d07f394[39m[22m
+Version: webpack [1m4.12.0[39m[22m
+Time: [1m1461[39m[22mms
+Built at: 2018-07-25 [1m13:35:17[39m[22m
+                               [1mAsset[39m[22m       [1mSize[39m[22m       [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+[1m[32mfee4445c392386a7c9e6.hot-update.json[39m[22m   44 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+[1m[32m342159b6745cea5355da.hot-update.json[39m[22m   44 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+               [1m[32mapplication.bundle.js[39m[22m   8.12 MiB  [1mapplication[39m[22m  [1m[32m[emitted][39m[22m  application
+                 [1m[32mpolyfills.bundle.js[39m[22m   1.46 MiB    [1mpolyfills[39m[22m  [1m[32m[emitted][39m[22m  polyfills
+                 [1m[32mresources.bundle.js[39m[22m   1.98 MiB    [1mresources[39m[22m  [1m[32m[emitted][39m[22m  resources
+[1m[32mf39cdeec8426218b61d5.hot-update.json[39m[22m   35 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+                          [1m[32mindex.html[39m[22m  383 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+ + 9 hidden assets
+Entrypoint [1mpolyfills[39m[22m = [1m[32mpolyfills.bundle.js[39m[22m
+Entrypoint [1mresources[39m[22m = [1m[32mresources.css[39m[22m [1m[32mresources.bundle.js[39m[22m
+Entrypoint [1mapplication[39m[22m = [1m[32mapplication.bundle.js[39m[22m
+[./.. lazy recursive] [1m.. lazy namespace object[39m[22m 160 bytes {[1m[33mapplication[39m[22m} {[1m[33mresources[39m[22m}[1m[32m [built][39m[22m
+    + 845 hidden modules
+
+[1m[33mWARNING in ../node_modules/@angular/core/bundles/core.umd.min.js 225:696-712
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../node_modules/@clr/icons/clr-icons.min.css ../node_modules/@clr/icons/clr-icons.min.js ../resources/styles/node-modules/@clr/ui/clr-ui.scss ../resources/styles/global.scss ../resources/styles/node-modules/leaflet/dist/leaflet.scss ../resources/styles/node-modules/leaflet-draw/dist/leaflet.draw.scss ../node_modules/@angular/core/bundles/core.umd.min.js[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/bundles/core.umd.min.js 225:967-1045
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../node_modules/@clr/icons/clr-icons.min.css ../node_modules/@clr/icons/clr-icons.min.js ../resources/styles/node-modules/@clr/ui/clr-ui.scss ../resources/styles/global.scss ../resources/styles/node-modules/leaflet/dist/leaflet.scss ../resources/styles/node-modules/leaflet-draw/dist/leaflet.draw.scss ../node_modules/@angular/core/bundles/core.umd.min.js[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/fesm5/core.js 4826:15-36
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ ../controller/index.ts 4:13-37
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../controller/index.ts[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/fesm5/core.js 4838:15-102
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ ../controller/index.ts 4:13-37
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../controller/index.ts[39m[22m
+Child [1mfavicons-webpack-plugin for "iconstats-[hash].json"[39m[22m:
+                                   [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32mfee4445c392386a7c9e6.hot-update.json[39m[22m  44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+     + 9 hidden assets
+    Entrypoint [1mundefined[39m[22m = [1m[32miconstats-3653f6815797dc8ff24f.json[39m[22m
+       1 module
+Child [1mhtml-webpack-plugin for "index.html"[39m[22m:
+                                   [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32m342159b6745cea5355da.hot-update.json[39m[22m  44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+     + 1 hidden asset
+    Entrypoint [1mundefined[39m[22m = [1m[32mindex.html[39m[22m
+       4 modules
+ℹ ｢wdm｣: Compiled with warnings.
+ℹ ｢wdm｣: Compiling...
+ℹ ｢wdm｣: wait until bundle finished: /favicon.ico
+
+[at-loader] Checking started in a separate process...
+
+[at-loader] Ok, 0.003 sec.
+⚠ ｢wdm｣: Hash: [1md9381ac36178c0c34246[39m[22m
+Version: webpack [1m4.12.0[39m[22m
+Time: [1m1768[39m[22mms
+Built at: 2018-07-25 [1m13:35:20[39m[22m
+                               [1mAsset[39m[22m       [1mSize[39m[22m       [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+[1m[32m3653f6815797dc8ff24f.hot-update.json[39m[22m   44 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+[1m[32mf5c4da30b2d9897b7db2.hot-update.json[39m[22m   44 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+               [1m[32mapplication.bundle.js[39m[22m   8.12 MiB  [1mapplication[39m[22m  [1m[32m[emitted][39m[22m  application
+                 [1m[32mpolyfills.bundle.js[39m[22m   1.46 MiB    [1mpolyfills[39m[22m  [1m[32m[emitted][39m[22m  polyfills
+                 [1m[32mresources.bundle.js[39m[22m   1.98 MiB    [1mresources[39m[22m  [1m[32m[emitted][39m[22m  resources
+[1m[32m3c0f07f988815d07f394.hot-update.json[39m[22m   35 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+                          [1m[32mindex.html[39m[22m  383 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+ + 9 hidden assets
+Entrypoint [1mpolyfills[39m[22m = [1m[32mpolyfills.bundle.js[39m[22m
+Entrypoint [1mresources[39m[22m = [1m[32mresources.css[39m[22m [1m[32mresources.bundle.js[39m[22m
+Entrypoint [1mapplication[39m[22m = [1m[32mapplication.bundle.js[39m[22m
+[./.. lazy recursive] [1m.. lazy namespace object[39m[22m 160 bytes {[1m[33mapplication[39m[22m} {[1m[33mresources[39m[22m}[1m[32m [built][39m[22m
+    + 845 hidden modules
+
+[1m[33mWARNING in ../node_modules/@angular/core/bundles/core.umd.min.js 225:696-712
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../node_modules/@clr/icons/clr-icons.min.css ../node_modules/@clr/icons/clr-icons.min.js ../resources/styles/node-modules/@clr/ui/clr-ui.scss ../resources/styles/global.scss ../resources/styles/node-modules/leaflet/dist/leaflet.scss ../resources/styles/node-modules/leaflet-draw/dist/leaflet.draw.scss ../node_modules/@angular/core/bundles/core.umd.min.js[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/bundles/core.umd.min.js 225:967-1045
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../node_modules/@clr/icons/clr-icons.min.css ../node_modules/@clr/icons/clr-icons.min.js ../resources/styles/node-modules/@clr/ui/clr-ui.scss ../resources/styles/global.scss ../resources/styles/node-modules/leaflet/dist/leaflet.scss ../resources/styles/node-modules/leaflet-draw/dist/leaflet.draw.scss ../node_modules/@angular/core/bundles/core.umd.min.js[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/fesm5/core.js 4826:15-36
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ ../controller/index.ts 4:13-37
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../controller/index.ts[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/fesm5/core.js 4838:15-102
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ ../controller/index.ts 4:13-37
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../controller/index.ts[39m[22m
+Child [1mfavicons-webpack-plugin for "iconstats-[hash].json"[39m[22m:
+                                   [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32m3653f6815797dc8ff24f.hot-update.json[39m[22m  44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+     + 9 hidden assets
+    Entrypoint [1mundefined[39m[22m = [1m[32miconstats-bac95f23d161b12b0a65.json[39m[22m
+       1 module
+Child [1mhtml-webpack-plugin for "index.html"[39m[22m:
+                                   [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32mf5c4da30b2d9897b7db2.hot-update.json[39m[22m  44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+     + 1 hidden asset
+    Entrypoint [1mundefined[39m[22m = [1m[32mindex.html[39m[22m
+       4 modules
+ℹ ｢wdm｣: Compiled with warnings.
+ℹ ｢wdm｣: Compiling...
+ℹ ｢wdm｣: wait until bundle finished: /favicon.ico
+
+[at-loader] Checking started in a separate process...
+
+[at-loader] Ok, 0.003 sec.
+⚠ ｢wdm｣: Hash: [1m8e18c250daa539fee561[39m[22m
+Version: webpack [1m4.12.0[39m[22m
+Time: [1m1773[39m[22mms
+Built at: 2018-07-25 [1m13:35:23[39m[22m
+                               [1mAsset[39m[22m       [1mSize[39m[22m       [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+[1m[32mbac95f23d161b12b0a65.hot-update.json[39m[22m   44 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+[1m[32mbca15d2263fbd376158d.hot-update.json[39m[22m   44 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+               [1m[32mapplication.bundle.js[39m[22m   8.12 MiB  [1mapplication[39m[22m  [1m[32m[emitted][39m[22m  application
+                 [1m[32mpolyfills.bundle.js[39m[22m   1.46 MiB    [1mpolyfills[39m[22m  [1m[32m[emitted][39m[22m  polyfills
+                 [1m[32mresources.bundle.js[39m[22m   1.98 MiB    [1mresources[39m[22m  [1m[32m[emitted][39m[22m  resources
+[1m[32md9381ac36178c0c34246.hot-update.json[39m[22m   35 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+                          [1m[32mindex.html[39m[22m  383 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+ + 9 hidden assets
+Entrypoint [1mpolyfills[39m[22m = [1m[32mpolyfills.bundle.js[39m[22m
+Entrypoint [1mresources[39m[22m = [1m[32mresources.css[39m[22m [1m[32mresources.bundle.js[39m[22m
+Entrypoint [1mapplication[39m[22m = [1m[32mapplication.bundle.js[39m[22m
+[./.. lazy recursive] [1m.. lazy namespace object[39m[22m 160 bytes {[1m[33mapplication[39m[22m} {[1m[33mresources[39m[22m}[1m[32m [built][39m[22m
+    + 845 hidden modules
+
+[1m[33mWARNING in ../node_modules/@angular/core/bundles/core.umd.min.js 225:696-712
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../node_modules/@clr/icons/clr-icons.min.css ../node_modules/@clr/icons/clr-icons.min.js ../resources/styles/node-modules/@clr/ui/clr-ui.scss ../resources/styles/global.scss ../resources/styles/node-modules/leaflet/dist/leaflet.scss ../resources/styles/node-modules/leaflet-draw/dist/leaflet.draw.scss ../node_modules/@angular/core/bundles/core.umd.min.js[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/bundles/core.umd.min.js 225:967-1045
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../node_modules/@clr/icons/clr-icons.min.css ../node_modules/@clr/icons/clr-icons.min.js ../resources/styles/node-modules/@clr/ui/clr-ui.scss ../resources/styles/global.scss ../resources/styles/node-modules/leaflet/dist/leaflet.scss ../resources/styles/node-modules/leaflet-draw/dist/leaflet.draw.scss ../node_modules/@angular/core/bundles/core.umd.min.js[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/fesm5/core.js 4826:15-36
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ ../controller/index.ts 4:13-37
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../controller/index.ts[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/fesm5/core.js 4838:15-102
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ ../controller/index.ts 4:13-37
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../controller/index.ts[39m[22m
+Child [1mfavicons-webpack-plugin for "iconstats-[hash].json"[39m[22m:
+                                   [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32mbac95f23d161b12b0a65.hot-update.json[39m[22m  44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+     + 9 hidden assets
+    Entrypoint [1mundefined[39m[22m = [1m[32miconstats-0536c34aee55101bbba5.json[39m[22m
+       1 module
+Child [1mhtml-webpack-plugin for "index.html"[39m[22m:
+                                   [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32mbca15d2263fbd376158d.hot-update.json[39m[22m  44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+     + 1 hidden asset
+    Entrypoint [1mundefined[39m[22m = [1m[32mindex.html[39m[22m
+       4 modules
+ℹ ｢wdm｣: Compiled with warnings.
+ℹ ｢wdm｣: Compiling...
+ℹ ｢wdm｣: wait until bundle finished: /favicon.ico
+
+[at-loader] Checking started in a separate process...
+
+[at-loader] Ok, 0.003 sec.
+⚠ ｢wdm｣: Hash: [1m116dc3557ce6542a47e6[39m[22m
+Version: webpack [1m4.12.0[39m[22m
+Time: [1m1909[39m[22mms
+Built at: 2018-07-25 [1m13:35:26[39m[22m
+                               [1mAsset[39m[22m       [1mSize[39m[22m       [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+[1m[32m0536c34aee55101bbba5.hot-update.json[39m[22m   44 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+[1m[32m5f41d6078d8b918266f9.hot-update.json[39m[22m   44 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+               [1m[32mapplication.bundle.js[39m[22m   8.12 MiB  [1mapplication[39m[22m  [1m[32m[emitted][39m[22m  application
+                 [1m[32mpolyfills.bundle.js[39m[22m   1.46 MiB    [1mpolyfills[39m[22m  [1m[32m[emitted][39m[22m  polyfills
+                 [1m[32mresources.bundle.js[39m[22m   1.98 MiB    [1mresources[39m[22m  [1m[32m[emitted][39m[22m  resources
+[1m[32m8e18c250daa539fee561.hot-update.json[39m[22m   35 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+                          [1m[32mindex.html[39m[22m  383 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+ + 9 hidden assets
+Entrypoint [1mpolyfills[39m[22m = [1m[32mpolyfills.bundle.js[39m[22m
+Entrypoint [1mresources[39m[22m = [1m[32mresources.css[39m[22m [1m[32mresources.bundle.js[39m[22m
+Entrypoint [1mapplication[39m[22m = [1m[32mapplication.bundle.js[39m[22m
+[./.. lazy recursive] [1m.. lazy namespace object[39m[22m 160 bytes {[1m[33mapplication[39m[22m} {[1m[33mresources[39m[22m}[1m[32m [built][39m[22m
+    + 845 hidden modules
+
+[1m[33mWARNING in ../node_modules/@angular/core/bundles/core.umd.min.js 225:696-712
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../node_modules/@clr/icons/clr-icons.min.css ../node_modules/@clr/icons/clr-icons.min.js ../resources/styles/node-modules/@clr/ui/clr-ui.scss ../resources/styles/global.scss ../resources/styles/node-modules/leaflet/dist/leaflet.scss ../resources/styles/node-modules/leaflet-draw/dist/leaflet.draw.scss ../node_modules/@angular/core/bundles/core.umd.min.js[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/bundles/core.umd.min.js 225:967-1045
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../node_modules/@clr/icons/clr-icons.min.css ../node_modules/@clr/icons/clr-icons.min.js ../resources/styles/node-modules/@clr/ui/clr-ui.scss ../resources/styles/global.scss ../resources/styles/node-modules/leaflet/dist/leaflet.scss ../resources/styles/node-modules/leaflet-draw/dist/leaflet.draw.scss ../node_modules/@angular/core/bundles/core.umd.min.js[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/fesm5/core.js 4826:15-36
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ ../controller/index.ts 4:13-37
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../controller/index.ts[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/fesm5/core.js 4838:15-102
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ ../controller/index.ts 4:13-37
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../controller/index.ts[39m[22m
+Child [1mfavicons-webpack-plugin for "iconstats-[hash].json"[39m[22m:
+                                   [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32m0536c34aee55101bbba5.hot-update.json[39m[22m  44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+     + 9 hidden assets
+    Entrypoint [1mundefined[39m[22m = [1m[32miconstats-b2eed40a06ad72ff05e7.json[39m[22m
+       1 module
+Child [1mhtml-webpack-plugin for "index.html"[39m[22m:
+                                   [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32m5f41d6078d8b918266f9.hot-update.json[39m[22m  44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+     + 1 hidden asset
+    Entrypoint [1mundefined[39m[22m = [1m[32mindex.html[39m[22m
+       4 modules
+ℹ ｢wdm｣: Compiled with warnings.
+ℹ ｢wdm｣: Compiling...
+ℹ ｢wdm｣: wait until bundle finished: /favicon.ico
+
+[at-loader] Checking started in a separate process...
+
+[at-loader] Ok, 0.003 sec.
+⚠ ｢wdm｣: Hash: [1m03437b9d1798f550e8e0[39m[22m
+Version: webpack [1m4.12.0[39m[22m
+Time: [1m1448[39m[22mms
+Built at: 2018-07-25 [1m13:35:29[39m[22m
+                               [1mAsset[39m[22m       [1mSize[39m[22m       [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+[1m[32mb2eed40a06ad72ff05e7.hot-update.json[39m[22m   44 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+[1m[32m6985a042ef1c7b6bb50f.hot-update.json[39m[22m   44 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+               [1m[32mapplication.bundle.js[39m[22m   8.12 MiB  [1mapplication[39m[22m  [1m[32m[emitted][39m[22m  application
+                 [1m[32mpolyfills.bundle.js[39m[22m   1.46 MiB    [1mpolyfills[39m[22m  [1m[32m[emitted][39m[22m  polyfills
+                 [1m[32mresources.bundle.js[39m[22m   1.98 MiB    [1mresources[39m[22m  [1m[32m[emitted][39m[22m  resources
+[1m[32m116dc3557ce6542a47e6.hot-update.json[39m[22m   35 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+                          [1m[32mindex.html[39m[22m  383 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+ + 9 hidden assets
+Entrypoint [1mpolyfills[39m[22m = [1m[32mpolyfills.bundle.js[39m[22m
+Entrypoint [1mresources[39m[22m = [1m[32mresources.css[39m[22m [1m[32mresources.bundle.js[39m[22m
+Entrypoint [1mapplication[39m[22m = [1m[32mapplication.bundle.js[39m[22m
+[./.. lazy recursive] [1m.. lazy namespace object[39m[22m 160 bytes {[1m[33mapplication[39m[22m} {[1m[33mresources[39m[22m}[1m[32m [built][39m[22m
+    + 845 hidden modules
+
+[1m[33mWARNING in ../node_modules/@angular/core/bundles/core.umd.min.js 225:696-712
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../node_modules/@clr/icons/clr-icons.min.css ../node_modules/@clr/icons/clr-icons.min.js ../resources/styles/node-modules/@clr/ui/clr-ui.scss ../resources/styles/global.scss ../resources/styles/node-modules/leaflet/dist/leaflet.scss ../resources/styles/node-modules/leaflet-draw/dist/leaflet.draw.scss ../node_modules/@angular/core/bundles/core.umd.min.js[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/bundles/core.umd.min.js 225:967-1045
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../node_modules/@clr/icons/clr-icons.min.css ../node_modules/@clr/icons/clr-icons.min.js ../resources/styles/node-modules/@clr/ui/clr-ui.scss ../resources/styles/global.scss ../resources/styles/node-modules/leaflet/dist/leaflet.scss ../resources/styles/node-modules/leaflet-draw/dist/leaflet.draw.scss ../node_modules/@angular/core/bundles/core.umd.min.js[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/fesm5/core.js 4826:15-36
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ ../controller/index.ts 4:13-37
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../controller/index.ts[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/fesm5/core.js 4838:15-102
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ ../controller/index.ts 4:13-37
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../controller/index.ts[39m[22m
+Child [1mfavicons-webpack-plugin for "iconstats-[hash].json"[39m[22m:
+                                   [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32mb2eed40a06ad72ff05e7.hot-update.json[39m[22m  44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+     + 9 hidden assets
+    Entrypoint [1mundefined[39m[22m = [1m[32miconstats-8d361c7ac7ad78e6e85c.json[39m[22m
+       1 module
+Child [1mhtml-webpack-plugin for "index.html"[39m[22m:
+                                   [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32m6985a042ef1c7b6bb50f.hot-update.json[39m[22m  44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+     + 1 hidden asset
+    Entrypoint [1mundefined[39m[22m = [1m[32mindex.html[39m[22m
+       4 modules
+ℹ ｢wdm｣: Compiled with warnings.
+ℹ ｢wdm｣: Compiling...
+
+[at-loader] Checking started in a separate process...
+
+[at-loader] Ok, 0.003 sec.
+⚠ ｢wdm｣: Hash: [1m90d1ccfdf8392ede4d21[39m[22m
+Version: webpack [1m4.12.0[39m[22m
+Time: [1m2425[39m[22mms
+Built at: 2018-07-25 [1m13:35:34[39m[22m
+                               [1mAsset[39m[22m       [1mSize[39m[22m       [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+[1m[32m8d361c7ac7ad78e6e85c.hot-update.json[39m[22m   44 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+[1m[32m790690f7d81e8443f9fd.hot-update.json[39m[22m   44 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+               [1m[32mapplication.bundle.js[39m[22m   8.12 MiB  [1mapplication[39m[22m  [1m[32m[emitted][39m[22m  application
+                 [1m[32mpolyfills.bundle.js[39m[22m   1.46 MiB    [1mpolyfills[39m[22m  [1m[32m[emitted][39m[22m  polyfills
+                 [1m[32mresources.bundle.js[39m[22m   1.98 MiB    [1mresources[39m[22m  [1m[32m[emitted][39m[22m  resources
+[1m[32m03437b9d1798f550e8e0.hot-update.json[39m[22m   35 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+                          [1m[32mindex.html[39m[22m  383 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+ + 9 hidden assets
+Entrypoint [1mpolyfills[39m[22m = [1m[32mpolyfills.bundle.js[39m[22m
+Entrypoint [1mresources[39m[22m = [1m[32mresources.css[39m[22m [1m[32mresources.bundle.js[39m[22m
+Entrypoint [1mapplication[39m[22m = [1m[32mapplication.bundle.js[39m[22m
+[./.. lazy recursive] [1m.. lazy namespace object[39m[22m 160 bytes {[1m[33mapplication[39m[22m} {[1m[33mresources[39m[22m}[1m[32m [built][39m[22m
+    + 845 hidden modules
+
+[1m[33mWARNING in ../node_modules/@angular/core/bundles/core.umd.min.js 225:696-712
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../node_modules/@clr/icons/clr-icons.min.css ../node_modules/@clr/icons/clr-icons.min.js ../resources/styles/node-modules/@clr/ui/clr-ui.scss ../resources/styles/global.scss ../resources/styles/node-modules/leaflet/dist/leaflet.scss ../resources/styles/node-modules/leaflet-draw/dist/leaflet.draw.scss ../node_modules/@angular/core/bundles/core.umd.min.js[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/bundles/core.umd.min.js 225:967-1045
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../node_modules/@clr/icons/clr-icons.min.css ../node_modules/@clr/icons/clr-icons.min.js ../resources/styles/node-modules/@clr/ui/clr-ui.scss ../resources/styles/global.scss ../resources/styles/node-modules/leaflet/dist/leaflet.scss ../resources/styles/node-modules/leaflet-draw/dist/leaflet.draw.scss ../node_modules/@angular/core/bundles/core.umd.min.js[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/fesm5/core.js 4826:15-36
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ ../controller/index.ts 4:13-37
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../controller/index.ts[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/fesm5/core.js 4838:15-102
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ ../controller/index.ts 4:13-37
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../controller/index.ts[39m[22m
+Child [1mfavicons-webpack-plugin for "iconstats-[hash].json"[39m[22m:
+                                   [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32m8d361c7ac7ad78e6e85c.hot-update.json[39m[22m  44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+     + 9 hidden assets
+    Entrypoint [1mundefined[39m[22m = [1m[32miconstats-e91c7dd31a4342692a56.json[39m[22m
+       1 module
+Child [1mhtml-webpack-plugin for "index.html"[39m[22m:
+                                   [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32m790690f7d81e8443f9fd.hot-update.json[39m[22m  44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+     + 1 hidden asset
+    Entrypoint [1mundefined[39m[22m = [1m[32mindex.html[39m[22m
+       4 modules
+ℹ ｢wdm｣: Compiled with warnings.
+ℹ ｢wdm｣: Compiling...
+
+[at-loader] Checking started in a separate process...
+
+[at-loader] Ok, 0.004 sec.
+⚠ ｢wdm｣: Hash: [1mb7ed8bfd4d4ceb138401[39m[22m
+Version: webpack [1m4.12.0[39m[22m
+Time: [1m2831[39m[22mms
+Built at: 2018-07-25 [1m13:35:38[39m[22m
+                               [1mAsset[39m[22m       [1mSize[39m[22m       [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+[1m[32me91c7dd31a4342692a56.hot-update.json[39m[22m   44 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+[1m[32m9c1490649628a4423d96.hot-update.json[39m[22m   44 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+               [1m[32mapplication.bundle.js[39m[22m   8.12 MiB  [1mapplication[39m[22m  [1m[32m[emitted][39m[22m  application
+                 [1m[32mpolyfills.bundle.js[39m[22m   1.46 MiB    [1mpolyfills[39m[22m  [1m[32m[emitted][39m[22m  polyfills
+                 [1m[32mresources.bundle.js[39m[22m   1.98 MiB    [1mresources[39m[22m  [1m[32m[emitted][39m[22m  resources
+[1m[32m90d1ccfdf8392ede4d21.hot-update.json[39m[22m   35 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+                          [1m[32mindex.html[39m[22m  383 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+ + 9 hidden assets
+Entrypoint [1mpolyfills[39m[22m = [1m[32mpolyfills.bundle.js[39m[22m
+Entrypoint [1mresources[39m[22m = [1m[32mresources.css[39m[22m [1m[32mresources.bundle.js[39m[22m
+Entrypoint [1mapplication[39m[22m = [1m[32mapplication.bundle.js[39m[22m
+[./.. lazy recursive] [1m.. lazy namespace object[39m[22m 160 bytes {[1m[33mapplication[39m[22m} {[1m[33mresources[39m[22m}[1m[32m [built][39m[22m
+    + 845 hidden modules
+
+[1m[33mWARNING in ../node_modules/@angular/core/bundles/core.umd.min.js 225:696-712
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../node_modules/@clr/icons/clr-icons.min.css ../node_modules/@clr/icons/clr-icons.min.js ../resources/styles/node-modules/@clr/ui/clr-ui.scss ../resources/styles/global.scss ../resources/styles/node-modules/leaflet/dist/leaflet.scss ../resources/styles/node-modules/leaflet-draw/dist/leaflet.draw.scss ../node_modules/@angular/core/bundles/core.umd.min.js[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/bundles/core.umd.min.js 225:967-1045
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../node_modules/@clr/icons/clr-icons.min.css ../node_modules/@clr/icons/clr-icons.min.js ../resources/styles/node-modules/@clr/ui/clr-ui.scss ../resources/styles/global.scss ../resources/styles/node-modules/leaflet/dist/leaflet.scss ../resources/styles/node-modules/leaflet-draw/dist/leaflet.draw.scss ../node_modules/@angular/core/bundles/core.umd.min.js[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/fesm5/core.js 4826:15-36
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ ../controller/index.ts 4:13-37
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../controller/index.ts[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/fesm5/core.js 4838:15-102
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ ../controller/index.ts 4:13-37
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../controller/index.ts[39m[22m
+Child [1mfavicons-webpack-plugin for "iconstats-[hash].json"[39m[22m:
+                                   [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32me91c7dd31a4342692a56.hot-update.json[39m[22m  44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+     + 9 hidden assets
+    Entrypoint [1mundefined[39m[22m = [1m[32miconstats-132297559aed097c7cec.json[39m[22m
+       1 module
+Child [1mhtml-webpack-plugin for "index.html"[39m[22m:
+                                   [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32m9c1490649628a4423d96.hot-update.json[39m[22m  44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+     + 1 hidden asset
+    Entrypoint [1mundefined[39m[22m = [1m[32mindex.html[39m[22m
+       4 modules
+ℹ ｢wdm｣: Compiled with warnings.
+ℹ ｢wdm｣: Compiling...
+
+[at-loader] Checking started in a separate process...
+
+[at-loader] Ok, 0.005 sec.
+⚠ ｢wdm｣: Hash: [1mda91a4b106c48d01df5b[39m[22m
+Version: webpack [1m4.12.0[39m[22m
+Time: [1m11617[39m[22mms
+Built at: 2018-07-25 [1m13:36:00[39m[22m
+                               [1mAsset[39m[22m       [1mSize[39m[22m       [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+[1m[32m132297559aed097c7cec.hot-update.json[39m[22m   44 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+[1m[32m7fdadcb3a038fd609c6e.hot-update.json[39m[22m   44 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+               [1m[32mapplication.bundle.js[39m[22m   8.12 MiB  [1mapplication[39m[22m  [1m[32m[emitted][39m[22m  application
+                 [1m[32mpolyfills.bundle.js[39m[22m   1.46 MiB    [1mpolyfills[39m[22m  [1m[32m[emitted][39m[22m  polyfills
+                 [1m[32mresources.bundle.js[39m[22m   1.98 MiB    [1mresources[39m[22m  [1m[32m[emitted][39m[22m  resources
+[1m[32mb7ed8bfd4d4ceb138401.hot-update.json[39m[22m   35 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+                          [1m[32mindex.html[39m[22m  383 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+ + 9 hidden assets
+Entrypoint [1mpolyfills[39m[22m = [1m[32mpolyfills.bundle.js[39m[22m
+Entrypoint [1mresources[39m[22m = [1m[32mresources.css[39m[22m [1m[32mresources.bundle.js[39m[22m
+Entrypoint [1mapplication[39m[22m = [1m[32mapplication.bundle.js[39m[22m
+[./.. lazy recursive] [1m.. lazy namespace object[39m[22m 160 bytes {[1m[33mapplication[39m[22m} {[1m[33mresources[39m[22m}[1m[32m [built][39m[22m
+    + 845 hidden modules
+
+[1m[33mWARNING in ../node_modules/@angular/core/bundles/core.umd.min.js 225:696-712
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../node_modules/@clr/icons/clr-icons.min.css ../node_modules/@clr/icons/clr-icons.min.js ../resources/styles/node-modules/@clr/ui/clr-ui.scss ../resources/styles/global.scss ../resources/styles/node-modules/leaflet/dist/leaflet.scss ../resources/styles/node-modules/leaflet-draw/dist/leaflet.draw.scss ../node_modules/@angular/core/bundles/core.umd.min.js[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/bundles/core.umd.min.js 225:967-1045
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../node_modules/@clr/icons/clr-icons.min.css ../node_modules/@clr/icons/clr-icons.min.js ../resources/styles/node-modules/@clr/ui/clr-ui.scss ../resources/styles/global.scss ../resources/styles/node-modules/leaflet/dist/leaflet.scss ../resources/styles/node-modules/leaflet-draw/dist/leaflet.draw.scss ../node_modules/@angular/core/bundles/core.umd.min.js[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/fesm5/core.js 4826:15-36
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ ../controller/index.ts 4:13-37
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../controller/index.ts[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/fesm5/core.js 4838:15-102
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ ../controller/index.ts 4:13-37
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../controller/index.ts[39m[22m
+Child [1mfavicons-webpack-plugin for "iconstats-[hash].json"[39m[22m:
+                                   [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32m132297559aed097c7cec.hot-update.json[39m[22m  44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+     + 9 hidden assets
+    Entrypoint [1mundefined[39m[22m = [1m[32miconstats-1b0098f358e17981ec0d.json[39m[22m
+       1 module
+Child [1mhtml-webpack-plugin for "index.html"[39m[22m:
+                                   [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32m7fdadcb3a038fd609c6e.hot-update.json[39m[22m  44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+     + 1 hidden asset
+    Entrypoint [1mundefined[39m[22m = [1m[32mindex.html[39m[22m
+       4 modules
+ℹ ｢wdm｣: Compiled with warnings.
+ℹ ｢wdm｣: Compiling...
+
+[at-loader] Checking started in a separate process...
+
+[at-loader] Ok, 0.003 sec.
+⚠ ｢wdm｣: Hash: [1m97bd7de9fbfcba66acf5[39m[22m
+Version: webpack [1m4.12.0[39m[22m
+Time: [1m8310[39m[22mms
+Built at: 2018-07-25 [1m13:36:10[39m[22m
+                               [1mAsset[39m[22m       [1mSize[39m[22m       [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+[1m[32m1b0098f358e17981ec0d.hot-update.json[39m[22m   44 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+[1m[32md7d1db2d720d65d6b846.hot-update.json[39m[22m   44 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+               [1m[32mapplication.bundle.js[39m[22m   8.12 MiB  [1mapplication[39m[22m  [1m[32m[emitted][39m[22m  application
+                 [1m[32mpolyfills.bundle.js[39m[22m   1.46 MiB    [1mpolyfills[39m[22m  [1m[32m[emitted][39m[22m  polyfills
+                 [1m[32mresources.bundle.js[39m[22m   1.98 MiB    [1mresources[39m[22m  [1m[32m[emitted][39m[22m  resources
+[1m[32mda91a4b106c48d01df5b.hot-update.json[39m[22m   35 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+                          [1m[32mindex.html[39m[22m  383 bytes             [1m[39m[22m  [1m[32m[emitted][39m[22m  
+ + 9 hidden assets
+Entrypoint [1mpolyfills[39m[22m = [1m[32mpolyfills.bundle.js[39m[22m
+Entrypoint [1mresources[39m[22m = [1m[32mresources.css[39m[22m [1m[32mresources.bundle.js[39m[22m
+Entrypoint [1mapplication[39m[22m = [1m[32mapplication.bundle.js[39m[22m
+[./.. lazy recursive] [1m.. lazy namespace object[39m[22m 160 bytes {[1m[33mapplication[39m[22m} {[1m[33mresources[39m[22m}[1m[32m [built][39m[22m
+    + 845 hidden modules
+
+[1m[33mWARNING in ../node_modules/@angular/core/bundles/core.umd.min.js 225:696-712
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../node_modules/@clr/icons/clr-icons.min.css ../node_modules/@clr/icons/clr-icons.min.js ../resources/styles/node-modules/@clr/ui/clr-ui.scss ../resources/styles/global.scss ../resources/styles/node-modules/leaflet/dist/leaflet.scss ../resources/styles/node-modules/leaflet-draw/dist/leaflet.draw.scss ../node_modules/@angular/core/bundles/core.umd.min.js[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/bundles/core.umd.min.js 225:967-1045
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../node_modules/@clr/icons/clr-icons.min.css ../node_modules/@clr/icons/clr-icons.min.js ../resources/styles/node-modules/@clr/ui/clr-ui.scss ../resources/styles/global.scss ../resources/styles/node-modules/leaflet/dist/leaflet.scss ../resources/styles/node-modules/leaflet-draw/dist/leaflet.draw.scss ../node_modules/@angular/core/bundles/core.umd.min.js[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/fesm5/core.js 4826:15-36
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ ../controller/index.ts 4:13-37
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../controller/index.ts[39m[22m
+
+[1m[33mWARNING in ../node_modules/@angular/core/fesm5/core.js 4838:15-102
+System.import() is deprecated and will be removed soon. Use import() instead.
+For more info visit https://webpack.js.org/guides/code-splitting/
+ @ ../controller/index.ts 4:13-37
+ @ multi ../node_modules/webpack-dev-server/client?http://0.0.0.0:3333 webpack/hot/dev-server ../controller/index.ts[39m[22m
+Child [1mfavicons-webpack-plugin for "iconstats-[hash].json"[39m[22m:
+                                   [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32m1b0098f358e17981ec0d.hot-update.json[39m[22m  44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+     + 9 hidden assets
+    Entrypoint [1mundefined[39m[22m = [1m[32miconstats-d01bea021444fc253911.json[39m[22m
+       1 module
+Child [1mhtml-webpack-plugin for "index.html"[39m[22m:
+                                   [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+    [1m[32md7d1db2d720d65d6b846.hot-update.json[39m[22m  44 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+     + 1 hidden asset
+    Entrypoint [1mundefined[39m[22m = [1m[32mindex.html[39m[22m
+       4 modules
+ℹ ｢wdm｣: Compiled with warnings.
+ℹ ｢wdm｣: Compiling...
+
+[at-loader] Checking started in a separate process...
+
+[at-loader] Ok, 0.448 sec.

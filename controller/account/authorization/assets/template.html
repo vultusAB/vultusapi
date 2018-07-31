@@ -1,0 +1,36 @@
+<div class="login-wrapper">
+    <form class="login" [formGroup]="accountForm" (ngSubmit)="onSubmit()" fxLayout="column" fxLayoutAlign="start stretch">
+        <label class="title">
+            <h3 class="welcome">Welcome to</h3>
+            Vustaina Toolbox
+            <h5 class="hint">Use your registered Email to sign in or
+                <a [routerLink]="['/account/signup']">create one</a> now</h5>
+        </label>
+        <div class="login-group">
+            <input class="username" type="text" id="login_username" formControlName="username" placeholder="Email">
+            <input class="password" type="password" id="login_password" formControlName="password" placeholder="Password">
+            <div class="checkbox">
+                <input type="checkbox" id="rememberme" formControlName="rememberme">
+                <label for="rememberme">
+                    Remember me
+                </label>
+            </div>
+            <button type="submit" class="btn btn-primary" [disabled]="accountForm.status === 'INVALID'">Sign in</button>
+            <div class="alert alert-danger" *ngIf="credentialsInvalid">
+                <div class="alert-items">
+                    <div class="alert-item static">
+                        <div class="alert-icon-wrapper">
+                            <clr-icon class="alert-icon" shape="exclamation-circle"></clr-icon>
+                        </div>
+                        <span class="alert-text">Invalid user name or password</span>
+                    </div>
+                </div>
+            </div>
+            <a [routerLink]="['/account/signup']" class="signup">Sign up for a Account</a>
+            <!--
+            <p>Form value: {{ accountForm.value | json }}</p>
+            <p>Form status: {{ accountForm.status | json }}</p>
+            -->
+        </div>
+    </form>
+</div>

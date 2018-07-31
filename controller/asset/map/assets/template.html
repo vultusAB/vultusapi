@@ -1,0 +1,12 @@
+<div fxFill class="o-map">
+
+    <div fxFill id="leaflet-map" class="o-leaflet">
+        <div class="o-layer o-root" leaflet leafletDraw [leafletOptions]="map.options" [leafletLayersControl]="map.layers" [leafletDrawOptions]="map.optionsDraw"
+            (leafletMapReady)="onMapReady($event)"></div>
+
+        <div class="o-layer o-location">
+
+
+        </div>
+    </div>
+</div>

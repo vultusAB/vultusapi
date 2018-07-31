@@ -1,0 +1,92 @@
+$phi: 1.6180339887498948482;
+$ratio-error: 100%;
+/* Input validation and containing calculation statics*/
+$ratio-type: (
+  small: 0,
+  large: 1,
+  offset: 10
+);
+// @mode 0: Internal function call 1: Default procentual ratio call 2: Opacity ratio call
+@function ratio($type, $factor: 1, $mode: 1) {
+  // @debug "Excuting ratio calculation. Provided Type: `#{$type}` and Factor `#{$factor}`";
+  $ref: 100%;
+  @if $mode == 2 {
+    $ref: 1;
+  }
+  @if $factor < 0 {
+    @warn "Invalid factor `#{$factor}`. Only zero and posivite values allowed, exp 0 0,5 3 etc.";
+    @return $ratio-error;
+  }
+  @if map-has-key($ratio-type, $type) {
+    @if $type == small {
+      $size: ($ref / ($phi + $factor));
+      // @if $mode != 0 {
+      //   @debug "Ratio calculated to `#{$size}`. Using Type: `#{$type}`, Factor `#{$factor}`, Mode: `#{$mode}`";
+      // }
+      @return $size;
+    } @else if $type == large {
+      $size: $ref - ratio(small, $factor, $mode);
+      // @if $mode != 0 {
+      //   @debug "Ratio calculated to `#{$size}`. Using Type: `#{$type}` and Factor `#{$factor}`, Mode: `#{$mode}`";
+      // }
+      @return $size;
+    } @else if $type == offset {
+      @return ($phi/map-get($ratio-type, $type)) * ($phi/($ref + $factor));
+    } @else {
+      @error "Fatal error: (Logical issue) Unknown size type `#{$type}` in $ratio-type. Avalible identifiers small, large, offset";
+      @return $ratio-error;
+    }
+  }
+
+  @warn "Unknown size type `#{$type}` in $ratio-type. Avalible identifiers small, large, offset";
+  @return $ratio-error;
+}
+
+$lock-error: 1;
+/* Minimum target screen resolution */
+$lock-type: (
+  height: 900px,
+  width: 1280px
+);
+@function lock($type, $factor: 1) {
+  @if $factor < 0 {
+    @warn "Invalid factor `#{$factor}`. Only zero and posivite values allowed.";
+    @return $lock-error;
+  }
+  @if map-has-key($lock-type, $type) {
+    $size: map-get($lock-type, $type);
+    $result: $size * ($factor);
+    // @debug "Lock calculated using `#{$size}` to `#{$result}`. Using Type: `#{$type}`, Factor `#{$factor}`";
+    @return $result;
+  }
+  @warn "Unknown size type `#{$type}` in $lock-type. Avalible identifiers small, large, offset";
+  @return $lock-error;
+}
+
+$size-error: "10";
+/* Input validation and containing calculation statics*/
+$size-type: (
+  display: 56px,
+  headline: 24px,
+  label: 15,
+  body: 13
+);
+$size-target: (
+  text: 1,
+  space: ratio("offset")
+);
+@function size($type, $factor: 0, $target: "text") {
+  @if map-has-key($size-type, $type) {
+    @if map-has-key($size-target, $target) {
+      $size: map-get($size-target, $target) *
+        (map-get($size-type, $type) + (ratio("large", $factor, 2) * 2));
+      // @debug "Size calculated to `#{$size}`. Using Type: `#{$type}`, Factor `#{$factor}`";
+      @return $size;
+    } @else {
+      @warn "Unknown target type `#{$type}` in $size-type. Avalible identifiers text, space";
+    }
+  } @else {
+    @warn "Unknown size type `#{$type}` in $size-type. Avalible identifiers display, headline, label, body";
+  }
+  @return $size-error;
+}

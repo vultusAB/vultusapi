@@ -1,0 +1,276 @@
+@import "../../../../resources/variables/product.color";
+@import "../../../../resources/variables/golden.ratio";
+
+:host {
+  min-height: 100%;
+}
+
+:host > div {
+  min-height: 100% - (ratio(small, 24) * 2);
+  margin: ratio(small, 24);
+}
+.o-visual-menu {
+  position: absolute;
+  height: 50px;
+  width: 90px;
+
+  button {
+    padding-left: 0px;
+    color: danger(dawn);
+    opacity: 0.3;
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+.o-visual {
+  .o-leaflet {
+    position: relative;
+    // border-color: stone(dusk);
+    // border-style: solid;
+    // border-width: ratio(small, 96);
+    width: 100%;
+    height: 100%;
+
+    .o-layer {
+      z-index: 1;
+      position: absolute;
+      height: 100%;
+      width: 100%;
+    }
+
+    .o-location {
+      z-index: 2;
+      position: absolute;
+
+      .o-svg-container {
+        padding: 8%;
+
+        .o-svg-content {
+          z-index: 3;
+          display: block;
+
+          fill: rgba(success(dawn), ratio(small, 1, 2));
+          stroke: stone(day);
+          stroke-linejoin: round;
+          stroke-linecap: round;
+          stroke-width: 1%;
+        }
+      }
+    }
+  }
+}
+
+.o-split {
+  height: ratio(small, 18, 2) * 100vh;
+  // padding-top: ratio(small, 96, 2) * 100vh;
+  // padding-bottom: ratio(small, 96, 2) * 100vh;
+  div {
+    background-color: #f2f2f2;
+    div {
+      background-color: rgba(snow(), ratio(small, 1, 2));
+    }
+  }
+  &.o-left {
+    margin-left: ratio(small, 60) * -1;
+  }
+  &.o-right {
+    margin-right: ratio(small, 36) * -1;
+  }
+}
+
+.o-menu-line {
+  min-height: ratio(large, 2, 2) * 100px;
+  background-color: rgba(sky(dawn), ratio(large, 3, 2));
+
+  .o-overlay {
+    padding: ratio(small, 96);
+    * {
+      margin: 0;
+    }
+    .o-info {
+      margin-left: ratio(small, 48);
+      width: ratio(large);
+
+      .o-success {
+        color: success(dusk);
+      }
+
+      *:first-child {
+        margin-top: ratio(small, 96);
+        margin-bottom: ratio(small, 9);
+        color: cave(night);
+      }
+      p {
+        line-height: 14px;
+        margin-right: ratio(small, 32);
+        text-align: right;
+        &:last-child {
+          margin-bottom: ratio(small, 96);
+        }
+      }
+    }
+  }
+}
+
+.o-content-analysis {
+  background-color: rgba(
+    snow(dawn),
+    ratio(large, 3, 2)
+  ); //rgba(sky(dawn), ratio(large, 3, 2));
+
+  min-height: ratio(large, 2, 2) * 100px;
+
+  .o-overlay {
+    // padding: ratio(small, 96);
+    .o-info {
+      color: cave(night);
+
+      > div {
+        // margin-left: ratio(small, 48);
+
+        .o-banner {
+          height: ratio(small, 6, 2) * 100vh;
+          .o-vertical-line {
+            background-color: rgba(white, ratio(small, 2, 2));
+            width: 6px;
+          }
+          &.o-left {
+            margin-left: ratio(small, 36);
+          }
+          &.o-right {
+            background-color: snow(dawn);
+            .o-success {
+              color: success(dusk);
+            }
+
+            p {
+              line-height: 14px;
+              margin-left: 6px;
+              margin-top: ratio(small, 96);
+              margin-bottom: ratio(small, 32);
+              color: cave(night);
+              &:last-child {
+                margin-bottom: 9px;
+              }
+            }
+          }
+
+          .o-field-info {
+            width: ratio(large);
+
+            .o-success {
+              color: success(dusk);
+            }
+
+            *:first-child {
+              margin-top: ratio(small, 48);
+
+              margin-bottom: ratio(small, 9);
+              color: cave(night);
+            }
+            /*
+            p {
+              line-height: 14px;
+              margin-right: ratio(small, 32);
+              text-align: right;
+              &:last-child {
+                margin-bottom: ratio(small, 96);
+              }
+            }*/
+          }
+        }
+
+        > *:first-child {
+          // margin-top: ratio(small, 96);
+          // margin-bottom: ratio(small, 48);
+        }
+
+        &:first-child {
+          width: ratio(large);
+
+          .o-content-map {
+            height: ratio(large, 0.7, 2) * 100vh;
+
+            .o-mapbox {
+              border-top-color: sky(dusk);
+              border-top-style: solid;
+              border-top-width: 1px;
+              > * {
+                height: 100%;
+                width: 100%;
+              }
+            }
+          }
+          .o-menu-map {
+            height: ratio(small, 2, 2) * 100vh;
+
+            > div {
+              background-color: force(day);
+            }
+            header {
+              background-color: transparent; //rgba(snow(dawn), ratio(large, 1, 2));
+              .header-actions .nav-link.nav-icon {
+                color: success(night);
+                cursor: help;
+              }
+            }
+            .o-nav-content {
+              width: 180px;
+
+              a {
+                line-height: 30px;
+              }
+            }
+          }
+        }
+        &:last-child {
+          width: ratio(small);
+        }
+      }
+
+      .o-controller {
+        header {
+          background-color: force(day);
+          margin-bottom: 0;
+        }
+        .o-line {
+          background-color: force(day);
+          margin: 0;
+          height: 2px;
+
+          > div {
+            border-top-color: sky(dusk);
+            border-top-style: solid;
+            border-top-width: 1px;
+          }
+        }
+        .o-line.o-bold {
+          height: 6px;
+        }
+        .o-content {
+          padding-top: ratio(small, 24) + ratio(small, 48);
+          margin-top: 0;
+
+          .o-avalible {
+            .clr-treenode-link {
+              color: cave(night);
+              &:hover {
+                background-color: snow(dawn);
+                color: cave(night);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.o-content {
+  min-height: ratio(large, 2, 2) * 100px;
+  margin-top: ratio(small, 24);
+  padding: ratio(small, 48);
+  background-color: transparent; // rgba(snow(dawn), ratio(large, 1, 2));
+  $iconSize: 20px;
+}

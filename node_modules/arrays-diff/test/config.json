@@ -1,0 +1,17 @@
+[
+  {
+    "array1" : ["a", "b", "c", "d"],
+    "array2" : [ "b", "c", "d", "e"],
+    "result": ["a", "e"]
+  },
+  {
+    "array1" : ["a", "b", "c", "d"],
+    "array2" : [ "b", "c", "d"],
+    "result": ["a"]
+  },
+  {
+    "array1" : [ "b", "c", "d"],
+    "array2" : [ "b", "c", "d", "e"],
+    "result": [ "e"]
+  }
+]
